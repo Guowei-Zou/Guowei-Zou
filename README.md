@@ -5,15 +5,6 @@ _Explore my projects, ideas, and contributions._
 
 ---
 
-# 欢迎来到我的 GitHub 页面  
-_探索我的项目、想法和贡献。_
-
-</header>
-
----
-
-## English Section
-
 ### About Me  
 Hi, I'm **Guowei Zou**!  
 - **Profession:** A PhD candidate student in Sun Yat-Sen University (SYSU)  
@@ -34,8 +25,6 @@ Here are some of my featured works:
 - 💼 LinkedIn:   
 
 ---
-
-## 中文部分
 
 ### 关于我  
 你好，我是**邹国伟**！  
