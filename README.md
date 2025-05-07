@@ -1,57 +1,70 @@
 <header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
-
-## Finish
-
-_Congratulations friend, you've completed this course!_
-
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
-
-Your blog is now live and has been deployed!
-
-Here's a recap of all the tasks you've accomplished in your repository:
-
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
-
-### What's next?
-
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+# Welcome to My GitHub Page  
+_Explore my projects, ideas, and contributions._
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+# 欢迎来到我的 GitHub 页面  
+_探索我的项目、想法和贡献。_
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+</header>
+
+---
+
+## English Section
+
+### About Me  
+Hi, I'm **Guowei Zou**!  
+- **Profession:** A PhD candidate student in Sun Yat-Sen University (SYSU)  
+- **Interests:** hiking, photography  
+
+---
+
+### Projects  
+Here are some of my featured works:  
+- [Project 1](#) - mappo algorithm based on diffusion policy  
+- [Project 2](#) - RL fine-tune diffusion policy  
+
+---
+
+### Contact  
+- 📫 Email: zougw2025@gmail.com  
+- 🐦 Twitter: @WilliamChou2025  
+- 💼 LinkedIn:   
+
+---
+
+## 中文部分
+
+### 关于我  
+你好，我是**邹国伟**！  
+- **职业：** 中山大学在读博士研究生  
+- **兴趣爱好：** 徒步，摄影  
+
+---
+
+### 项目  
+以下是我的一些精选作品：  
+- [项目 1](#) - mappo algorithm based on diffusion policy  
+- [项目 2](#) - RL fine-tune diffusion policy  
+
+---
+
+### 联系方式  
+- 📫 邮箱：zougw2025@gmail.com  
+- 🐦 推特：@WilliamChou2025  
+- 💼 领英：  
+
+---
+
+<footer>
+
+---
+
+Get help: [Contact me](mail to:zougw2025@gmail.com)  
+获取帮助：[联系我](mail to:zougw2025@gmail.com)
+
+&copy; 2025 Guowei Zou &bull; [MIT License](链接)
 
 </footer>
