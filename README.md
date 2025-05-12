@@ -1,10 +1,12 @@
+<h1 align="center"> 🤩 hello, i'm Guowei-Zou 🤩 </h1>
+<h3 align="center">🚀 fullstack devlover 🚀</h3>
+
 <header>
 
 # Welcome to My GitHub Page  
 ---
 
 ### About Me  
-Hi, I'm **Guowei Zou**!  
 - **Profession:** A PhD candidate student in Sun Yat-Sen University (SYSU)  
 - **Interests:** hiking, photography  
 
@@ -12,7 +14,8 @@ Hi, I'm **Guowei Zou**!
 
 ### Projects  
 Here are some of my featured works:  
-- [Project 1](#) - mappo algorithm based on diffusion policy  
+- [Project 1
+](#) - mappo algorithm based on diffusion policy  
 - [Project 2](#) - RL fine-tune diffusion policy  
 
 ---
