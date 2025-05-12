@@ -1,8 +1,6 @@
 <header>
 
 # Welcome to My GitHub Page  
-_Explore my projects, ideas, and contributions._
-
 ---
 
 ### About Me  
