@@ -1,5 +1,5 @@
 <h1 align="center"> 🤩 hello, i'm Guowei-Zou 🤩 </h1>
-<h3 align="center">🚀 fullstack devlover 🚀</h3>
+<h3 align="center">🚀 AI algorithms 🚀</h3>
 
 <header>
 
