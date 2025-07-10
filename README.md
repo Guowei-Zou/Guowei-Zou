@@ -10,7 +10,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
 
 ## Education & Experience
 - **PhD in Computer Science and Technology** | Sun Yat-Sen University | 2024 - Present
-- **Hardware Engineer** | Huawei Technologies, Consumer BG - Display & Touch Division | 2023 - 2024
+- **Hardware Engineer** | Huawei Technologies Co., Ltd., Consumer BG - Display & Touch Division | 2023 - 2024
 - **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
 - **Bachelor in Electronic Information Engineering** | China Agricultural University | 2016 - 2020
 
