@@ -1,50 +1,23 @@
-# Hi there! 👋 I'm Guowei Zou
+# Guowei Zou
 
 ## About Me
-I'm a Hardware Engineer with a strong background in electronic science and technology, passionate about optoelectronic materials and cutting-edge research.
+I am currently a **PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering, specializing in **Embodied Intelligence** with a focus on **Reinforcement Learning** and **Generative Models for Robotics Control**.
 
-## 🎓 Education
-- **Sun Yat-Sen University (SYSU)** | Master's in Electronic Science and Technology | Sep 2020 - Aug 2023
-  - State Key Laboratory of Optoelectronic Materials and Technology (OEMT)
-  - Guangzhou, China
-  - *Exempt from Admission Exam*
+## Research Interests
+- **Embodied Intelligence** - Developing intelligent agents that can perceive, reason, and act in physical environments
+- **Reinforcement Learning** - Advanced algorithms for decision-making and control in robotics and autonomous systems  
+- **Generative Models for Robotics** - Applying generative models for robotics control and motion planning
 
-- **China Agricultural University (CAU)** | Bachelor's in Electronic Information Engineering | Sep 2016 - Jun 2020
-  - Beijing, China
+## Education & Experience
+- **PhD in Computer Science and Technology** | Sun Yat-Sen University | 2024 - Present
+- **Hardware Engineer** | Huawei Technologies, Consumer BG - Display & Touch Division | 2023 - 2024
+- **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
+- **Bachelor in Electronic Information Engineering** | China Agricultural University | 2016 - 2020
 
-## 💼 Work Experience
-- **Hardware Engineer** | Huawei | 2023 - 2024
-
-## 🏆 Awards & Achievements
-- **Best Paper Award** - PGWS 2021, Hong Kong, China
-- **Beijing Excellent Undergraduate Thesis** (2020)
-- **China Agricultural University Excellent Undergraduate Thesis** (2020)
-
-## 📝 Patents
-- **CN202110793074.5** (Granted, First Author)
-- **CN202110873615.5** (Granted, Third Author)
-- **CN202111427903.4** (Published, First Author)
-- **CN202210380314.3** (Published, First Author)
-
-## 🎤 Conference Presentations
-- **Oral Presentation** - SID Display Week 2022, California, USA
-- **Oral Presentation** - ICDT 2022, Fuzhou, China
-- **Poster Presentation** - IDMC 2022, Taipei, China
-- **Oral Presentation** - PGWS 2021, Hong Kong, China (Best Paper Award)
-
-## 📚 Publications
-Check out my research work on [Google Scholar](https://scholar.google.com/citations?user=Rsci6I8AAAAJ&hl=en&oi=ao)
-
-## 🔬 Research Interests
-- Optoelectronic Materials and Technology
-- Electronic Science and Technology
-- Hardware Engineering
-- Display Technologies
-
-## 📫 How to reach me
-- 📧 Email: [Your Email]
-- 🔗 LinkedIn: [Your LinkedIn]
-- 📱 WeChat: [Your WeChat ID]
+## Contact
+- =� Email: [zougw2025@gmail.com](mailto:zougw2025@gmail.com)
+- <� [Google Scholar](https://scholar.google.com/citations?user=Rsci6I8AAAAJ&hl=en&oi=ao)
+- =� [ResearchGate](https://www.researchgate.net/profile/Guowei-Zou)
 
 ---
-*Always learning, always growing! 🚀*
+*Visit my [personal homepage](https://guowei-zou.github.io/Guowei-Zou/) for more details about my research and projects.*
