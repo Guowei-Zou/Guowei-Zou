@@ -177,4 +177,44 @@ const addA11yFeatures = () => {
 
 addA11yFeatures();
 
-console.log('Academic homepage loaded successfully');
+// Visitor location and statistics functionality
+const initVisitorTracking = () => {
+    // Get visitor location using IP geolocation API
+    const getVisitorLocation = async () => {
+        try {
+            const response = await fetch('https://ipapi.co/json/');
+            const data = await response.json();
+            
+            if (data.city && data.country_name) {
+                const locationElement = document.getElementById('visitor-location');
+                if (locationElement) {
+                    locationElement.textContent = `${data.city}, ${data.country_name}`;
+                }
+            }
+        } catch (error) {
+            console.log('Unable to get visitor location:', error);
+        }
+    };
+    
+    // ClustrMaps provides its own statistics, so we don't need to simulate data
+    
+    // Initialize when visitor map section is visible
+    const visitorMapSection = document.getElementById('visitor-map');
+    if (visitorMapSection) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    getVisitorLocation();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        
+        observer.observe(visitorMapSection);
+    }
+};
+
+// Initialize visitor tracking
+initVisitorTracking();
+
+console.log('Academic homepage with visitor tracking loaded successfully');

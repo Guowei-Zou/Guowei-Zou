@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -520,6 +522,310 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+/* Visitor Map Section */
+
+/* Full-width map section */
+.full-width-map-section {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 1rem 0;
+}
+
+
+
+.map-title {
+    margin-bottom: 2rem;
+}
+
+.map-title h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.map-title p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+
+
+.clustrmaps-widget img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 2px solid #e8f4f8;
+}
+
+.real-map-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border: 2px solid #e8f4f8;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.map-description {
+    margin-bottom: 1.5rem;
+}
+
+.map-description h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.map-description p {
+    color: #7f8c8d;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.clustrmaps-js-widget {
+    width: 100%;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+/* 简单有效的居中方法 */
+.clustrmaps-js-widget,
+.clustrmaps-js-widget > *,
+.clustrmaps-js-widget div,
+.clustrmaps-js-widget iframe,
+.clustrmaps-js-widget img,
+.clustrmaps-js-widget canvas {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.clustrmaps-fallback {
+    padding: 1rem;
+    text-align: center;
+}
+
+.clustrmaps-fallback img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #e8f4f8;
+}
+
+.fallback-note {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.map-links {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #ecf0f1;
+}
+
+.map-links p {
+    margin: 0;
+    color: #34495e;
+}
+
+.map-links i {
+    color: #3498db;
+    margin-right: 0.5rem;
+}
+
+.map-links a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.map-links a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.stats-note {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #3498db;
+    line-height: 1.5;
+}
+
+.stats-note i {
+    color: #3498db;
+    margin-right: 0.5rem;
+}
+
+/* Website Statistics */
+.website-stats {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #27ae60;
+}
+
+.website-stats h4 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.stat-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 3px solid #27ae60;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 0.5rem;
+    font-family: 'Crimson Text', Georgia, serif;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.analytics-note {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #e8f4f8;
+    border-radius: 6px;
+    border-left: 3px solid #3498db;
+    font-size: 0.9rem;
+}
+
+.analytics-note p {
+    margin: 0;
+    color: #34495e;
+    line-height: 1.5;
+}
+
+.analytics-note i {
+    color: #3498db;
+    margin-right: 0.5rem;
+}
+
+#total-visits img {
+    border-radius: 5px;
+    max-height: 40px;
+    margin: 0;
+}
+
+/* ClustrMaps Statistics Widgets */
+.clustrmaps-stats {
+    margin: 2rem 0 1.5rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #27ae60;
+}
+
+.clustrmaps-stats h5 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.simple-counter {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.counter-note {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.stats-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #27ae60;
+}
+
+.stats-info p {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.stats-info ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.stats-info li {
+    margin-bottom: 0.3rem;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.visitor-counter {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.counter-item {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    min-width: 120px;
+    border-top: 3px solid #3498db;
+}
+
+.counter-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-family: 'Crimson Text', Georgia, serif;
+}
+
+.counter-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /* Footer */
 .footer {
     background: #2c3e50;
@@ -527,6 +833,23 @@ a:hover {
     text-align: center;
     padding: 1.5rem 0;
     margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-note {
+    font-size: 0.9rem;
+    color: #bdc3c7;
+    margin: 0;
+}
+
+#visitor-location {
+    color: #3498db;
+    font-weight: 600;
 }
 
 /* Responsive Design */
@@ -609,6 +932,59 @@ a:hover {
     
     .contact-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .visitor-counter {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .counter-item {
+        min-width: 200px;
+    }
+    
+    .full-width-map-section {
+        padding: 2rem 0;
+        margin: 1.5rem 0;
+    }
+    
+    .clustrmaps-widget {
+        padding: 0 1rem;
+    }
+    
+    .real-map-container {
+        padding: 1.5rem;
+    }
+    
+    .map-description {
+        margin-bottom: 1.5rem;
+    }
+    
+    .clustrmaps-js-widget {
+        margin: 1rem 0;
+    }
+    
+    .simple-counter {
+        margin: 0.5rem 0;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .website-stats {
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .stat-item {
+        padding: 1rem;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
     }
 }
 
@@ -716,3 +1092,14 @@ a:hover {
         height: 150px;
         padding: 1rem;
     }
+    
+    .full-width-map-section {
+        padding: 1.5rem 0;
+    }
+    
+    .real-map-container {
+        padding: 1rem;
+        max-width: 95%;
+    }
+    
+

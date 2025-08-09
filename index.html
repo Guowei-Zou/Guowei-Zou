@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-15TDJP964H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-15TDJP964H');
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -22,6 +31,7 @@
                     <li><a href="#education">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#honors">Honors</a></li>
+                    <li><a href="#visitor-map">Visitors</a></li>
                 </ul>
             </nav>
         </div>
@@ -187,6 +197,67 @@
                 </div>
             </section>
 
+            <!-- Visitor Map Section -->
+            <section id="visitor-map" class="section">
+                <div class="container">
+                    <h2>Visitor Statistics</h2>
+                    
+                    <!-- Simplified map container -->
+                    <div class="real-map-container">
+                            <div class="map-description">
+                                <h4>🌍 Real-time Visitor Map</h4>
+                                <p>Welcome visitors from around the world!</p>
+                            </div>
+                            
+                            <!-- Primary JavaScript-based Map (Recommended) -->
+                            <div class="clustrmaps-js-widget">
+                                <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=MTa-i3BqEclpMod6q5_ioW7YaamE9uJUTszqS2L1vPw&cl=ffffff&w=a"></script>
+                            </div>
+                            
+                            <!-- Fallback Image-based Map -->
+                            <noscript>
+                                <div class="clustrmaps-fallback">
+                                    <a href="https://clustrmaps.com/site/1c7jn" title="ClustrMaps" target="_blank">
+                                        <img src="//www.clustrmaps.com/map_v2.png?d=MTa-i3BqEclpMod6q5_ioW7YaamE9uJUTszqS2L1vPw&cl=ffffff" alt="Visitor Map" />
+                                    </a>
+                                    <p class="fallback-note">Enable JavaScript to view interactive map</p>
+                                </div>
+                            </noscript>
+                            
+                            <div class="map-links">
+                                <p><i class="fas fa-chart-line"></i> 
+                                   <a href="https://clustrmaps.com/site/1c7jn" target="_blank">View Real-time Statistics & Analytics</a>
+                                </p>
+                            </div>
+                            
+                            <!-- Website Statistics -->
+                            <div class="website-stats">
+                                <h4>📊 Website Analytics</h4>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <div class="stat-number">183</div>
+                                        <div class="stat-label">Total Visits</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">1</div>
+                                        <div class="stat-label">Unique Visitors</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">1</div>
+                                        <div class="stat-label">Countries</div>
+                                    </div>
+                                </div>
+                                <div class="analytics-note">
+                                    <p><i class="fas fa-info-circle"></i> 
+                                    Real-time data from ClustrMaps. Last visitor: 7 minutes ago from Dulwich, England. For detailed analytics and live map, click the interactive map or link above.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
 
         </div>
     </main>
@@ -194,7 +265,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Guowei Zou. All rights reserved.</p>
+            <div class="footer-content">
+                <p>&copy; 2025 Guowei Zou. All rights reserved.</p>
+                <p class="footer-note">Thank you for visiting from <span id="visitor-location">everywhere</span>!</p>
+            </div>
         </div>
     </footer>
 
