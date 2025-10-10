@@ -281,6 +281,20 @@ p strong[style] {
     line-height: 1.5;
 }
 
+/* Flag Counter */
+.flag-counter {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.flag-counter img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Visitor Map */
 .real-map-container {
     background: #fff;
