@@ -45,6 +45,11 @@ h3 {
     color: #000;
 }
 
+h3.bordered-subtitle {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.2rem;
+}
+
 h4 {
     font-size: 1rem;
     font-weight: bold;
