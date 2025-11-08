@@ -117,6 +117,27 @@
             margin-bottom: 2rem;
             color: #1a1a1a;
         }
+
+        .language-switch {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .language-switch a {
+            margin-right: 1rem;
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        .language-switch a:hover {
+            text-decoration: underline;
+        }
+
+        .language-switch .current-lang {
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -143,46 +164,66 @@
         <div class="container">
             <article class="blog-post">
                 <div class="blog-header">
+                    <div class="language-switch">
+                        <span class="current-lang">English</span>
+                        <a href="embodied-ai-roadmap-zh.html">中文</a>
+                    </div>
                     <h1 class="blog-title">Not Just Learning the World, But Creating It: The Ultimate Goal of AI</h1>
                     <p class="blog-meta">By Guowei Zou | November 6, 2025</p>
                 </div>
 
                 <div class="blog-content">
-                    <h2>1. The Turning Point of Embodied Intelligence</h2>
+                    <h2>The Turning Point of Embodied Intelligence</h2>
 
-                    <p>In the past decade, artificial intelligence has gradually shifted from language understanding to world interaction. Embodied intelligence, meaning agents that can perceive, reason, and act within the physical world, represents the next frontier. Yet, the true challenge lies not merely in perception or control, but in autonomous learning and continual evolution within the physical world. If the early 2020s were defined by generating text and images, then the latter half of the decade is about generating actions and worlds. The technological trajectory of embodied AI can be traced through a clear sequence: from <strong>Diffusion Policy</strong> to <strong>Vision-Language-Action (VLA)</strong>, then to <strong>World Models (Ctrl-World)</strong>, and ultimately to <strong>Self-Improving Agents (VLA + World + RL)</strong>. Each stage fills a missing link in the closed loop of intelligence: <em>perceive, imagine, act, evaluate, and improve</em>.</p>
+                    <p>In the past decade, artificial intelligence has gradually shifted from language understanding to world interaction. Embodied intelligence, meaning agents that can perceive, reason, and act within the physical world, represents the next frontier.</p>
 
-                    <h2>2. 2023 – Diffusion Policy: Learning to Act Without Understanding</h2>
+                    <p>Yet the true challenge lies not merely in perception or control, but in autonomous learning and continual evolution within the physical world. If the early 2020s were defined by generating text and images, then the latter half of the decade is about generating actions and worlds.</p>
 
-                    <p>The year 2023 marked the rise of <strong>Diffusion Policy</strong>, the first to bring diffusion generative models into robotic control. These models learned multimodal distributions of motion, producing smooth, realistic trajectories for manipulation and locomotion tasks. It was a remarkable step toward generative control, yet fundamentally limited to imitation. It could replicate actions within seen contexts but lacked task reasoning. It could not understand goals or adapt to new instructions. When environments changed, performance collapsed. Diffusion Policy was an actor without comprehension, a learner capable of motion, but not of meaning.</p>
+                    <p>The technological trajectory of embodied AI can be traced through a clear evolutionary sequence: from Diffusion Policy to Vision-Language-Action, then to World Models, and ultimately to self-improving agents that unify all three. Each stage fills a missing link in the closed loop of intelligence: perceive, imagine, act, evaluate, and improve.</p>
 
-                    <span class="key-point">It acted beautifully, but blindly.</span>
+                    <h2>Diffusion Policy: Acting Without Understanding</h2>
 
-                    <h2>3. 2024 – Vision-Language-Action (VLA): Understanding Without Reflection</h2>
+                    <p>The year 2023 marked the rise of Diffusion Policy, the first to bring diffusion generative models into robotic control. These models learned multimodal distributions of motion, producing smooth, realistic trajectories for manipulation and locomotion tasks.</p>
 
-                    <p>In 2024, the emergence of <strong>VLA models</strong> fused perception, language, and action. For the first time, robots could follow natural language commands and perform tasks grounded in semantics. This was a milestone: the birth of linguistically grounded action. But the learning process was still static. VLA could "see and do," but not "try and improve." There was no interaction loop, no evaluation mechanism, no sense of learning from experience. VLA represented understanding without reflection, a model that could interpret the world but not yet learn through it.</p>
+                    <p>It was a remarkable step toward generative control, yet fundamentally limited to imitation. The models could replicate actions within seen contexts but lacked task reasoning. They could not understand goals or adapt to new instructions. When environments changed, performance collapsed.</p>
 
-                    <span class="key-point">It could listen, but not think.</span>
+                    <p>Diffusion Policy was an actor without comprehension, a learner capable of motion but not of meaning. <em>It acted beautifully, but blindly.</em></p>
 
-                    <h2>4. 2025 – Ctrl-World: Imagination Without Adaptation</h2>
+                    <h2>Vision-Language-Action: Understanding Without Reflection</h2>
 
-                    <p>The year 2025 introduced <strong>Ctrl-World</strong> and its foundation models like <strong>Cosmos-Predict 2.5</strong> from NVIDIA, heralding what I call the <em>Era of Physical Imagination</em>. World models could now simulate dynamic, physics-consistent environments. They learned not just from data, but from the structure of reality itself. Agents could "imagine" the results of their actions before executing them. This bridged a crucial gap: from understanding to simulation. But even here, a fundamental limitation remained. The model could simulate interactions but not use those simulations to improve its own policy. It could evaluate, but not evolve. It remained an observer of its own imagination. Ctrl-World was a mirror of reality, not yet a laboratory of learning.</p>
+                    <p>In 2024, the emergence of VLA models fused perception, language, and action. For the first time, robots could follow natural language commands and perform tasks grounded in semantics. This was a milestone: the birth of linguistically grounded action.</p>
 
-                    <span class="key-point">It could dream, but not grow.</span>
+                    <p>But the learning process was still static. VLA could "see and do," but not "try and improve." There was no interaction loop, no evaluation mechanism, no sense of learning from experience.</p>
 
-                    <h2>5. 2026 – VLA + World + RL: The Age of Self-Evolving Intelligence</h2>
+                    <p>VLA represented understanding without reflection, a model that could interpret the world but not yet learn through it. <em>It could listen, but not think.</em></p>
 
-                    <p>Looking forward, I hold a firm belief that 2026 will mark the unification of these trajectories, the era of <strong>VLA + World + RL</strong>, where embodied agents will finally achieve <em>self-evolution</em>. In this paradigm, perception, imagination, and reinforcement converge into a continuous cycle: <strong>perception, imagination, action, evaluation, and self-improvement</strong>. Here, the world model becomes a training ground rather than a playground. Agents learn not by passively observing the world, but by actively optimizing within imagined environments. Reinforcement learning provides the missing link. Policies adapt from feedback generated in simulation. Agents refine their strategies continuously, without human labels. The system closes the loop of autonomous intelligence. This is more than speculation; it is a direction I consider inevitable. The integration of VLA, world simulation, and reinforcement will define the next generation of physical AI: models that think, imagine, act, and improve within their own synthetic universes.</p>
+                    <h2>World Models: Imagination Without Adaptation</h2>
 
-                    <span class="key-point">In 2026, embodied AI will not just act in the world—it will grow its own world to act within.</span>
+                    <p>The year 2025 introduced world models like Ctrl-World and NVIDIA's Cosmos-Predict 2.5, heralding what I call the Era of Physical Imagination. These models could now simulate dynamic, physics-consistent environments. They learned not just from data, but from the structure of reality itself.</p>
 
-                    <h2>6. Reflection and Conclusion</h2>
+                    <p>Agents could "imagine" the results of their actions before executing them. This bridged a crucial gap: from understanding to simulation.</p>
 
-                    <p>This roadmap reflects a deeper transformation in how we understand intelligence itself. From the imitation-based diffusion policy, to the language-grounded reasoning of VLA, to the imagination-driven simulation of Ctrl-World, and ultimately, to the self-evolving autonomy of VLA + World + RL, each step brings AI closer to the essence of learning: continual self-improvement through interaction. Future embodied agents will no longer rely on the real world for every iteration of learning. They will simulate, reflect, and evolve within worlds of their own making, becoming both the students and the creators of their environments. When AI learns to imagine, evaluate, and improve by itself, it will finally cross the boundary between knowing the world and understanding itself.</p>
+                    <p>But even here, a fundamental limitation remained. While world models could accurately simulate interactions and predict outcomes, they were not yet coupled with reinforcement learning to optimize policies. They could evaluate potential futures, but not evolve strategies to improve them.</p>
 
-                    <span class="key-point">Intelligence is not imitation—it is evolution.</span>
+                    <p>They remained observers of their own imagination. World models were mirrors of reality, not yet laboratories of learning. <em>They could dream, but not grow.</em></p>
 
-                    <span class="key-point">That is the ultimate goal of embodied intelligence: to not only learn from the world, but to create its own.</span>
+                    <h2>The Age of Self-Evolving Intelligence</h2>
+
+                    <p>Looking forward, I hold a firm belief that 2026 will mark the unification of these trajectories, the era of VLA + World + RL, where embodied agents will finally achieve self-evolution.</p>
+
+                    <p>In this paradigm, perception, imagination, and reinforcement converge into a continuous cycle: perception, imagination, action, evaluation, and self-improvement. Here, the world model becomes a training ground rather than a playground. Agents learn not by passively observing the world, but by actively optimizing within imagined environments.</p>
+
+                    <p>Reinforcement learning provides the missing link. Policies adapt from feedback generated in simulation. Agents refine their strategies continuously, without human labels. The system closes the loop of autonomous intelligence.</p>
+
+                    <p>This is more than speculation; it is a direction I consider inevitable. The integration of VLA, world simulation, and reinforcement will define the next generation of physical AI: models that think, imagine, act, and improve within their own synthetic universes. <em>In 2026, embodied AI will not just act in the world, it will grow its own world to act within.</em></p>
+
+                    <h2>Closing Thoughts</h2>
+
+                    <p>This roadmap reflects a deeper transformation in how we understand intelligence itself. From the imitation-based diffusion policy, to the language-grounded reasoning of VLA, to the imagination-driven simulation of world models, and ultimately to the self-evolving autonomy of VLA + World + RL, each step brings AI closer to the essence of learning: continual self-improvement through interaction.</p>
+
+                    <p>Future embodied agents will no longer rely on the real world for every iteration of learning. They will simulate, reflect, and evolve within worlds of their own making, becoming both the students and the creators of their environments.</p>
+
+                    <p>When AI learns to imagine, evaluate, and improve by itself, it will finally cross the boundary between knowing the world and understanding itself. <em>Intelligence is not imitation, it is evolution. That is the ultimate goal of embodied intelligence: to not only learn from the world, but to create its own.</em></p>
 
                     <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
 

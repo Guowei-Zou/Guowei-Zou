@@ -16,7 +16,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
 
 ## Contact
 - =� Email: [zougw2025@gmail.com](mailto:zougw2025@gmail.com)
-- <� [Google Scholar](https://scholar.google.com/citations?user=Rsci6I8AAAAJ&hl=en&oi=ao)
+- <� [Google Scholar](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
 - =� [ResearchGate](https://www.researchgate.net/profile/Guowei-Zou)
 
 ---

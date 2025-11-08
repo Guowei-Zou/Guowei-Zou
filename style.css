@@ -220,6 +220,21 @@ p strong[style] {
 }
 
 /* Publications */
+.publication-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.publication-thumb {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
 .publications-link {
     background: #fff;
     padding: 0.5rem 0;
@@ -403,6 +418,15 @@ i.fas, i.fab {
     .project-thumb {
         width: 60px;
         height: 45px;
+    }
+
+    .publication-item {
+        grid-template-columns: 80px 1fr;
+        gap: 0.8rem;
+    }
+
+    .publication-thumb {
+        width: 80px;
     }
 }
 
