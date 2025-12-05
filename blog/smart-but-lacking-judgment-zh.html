@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聪明，但没有判断力：当下 AI 真正缺少的东西 - Guowei Zou</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-15TDJP964H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-15TDJP964H');
+    </script>
+
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .blog-header {
+            margin-bottom: 3rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 2rem;
+        }
+
+        .blog-title {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .blog-meta {
+            font-family: 'Times New Roman', Times, serif;
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .blog-content {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #333;
+            text-align: justify;
+        }
+
+        .blog-content h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .blog-content em {
+            font-style: italic;
+        }
+
+        .blog-content strong {
+            font-weight: 600;
+        }
+
+        .key-point {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 1.5rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid #3498db;
+            font-style: italic;
+            text-align: justify;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+
+        .back-link:hover {
+            background-color: #e0e0e0;
+        }
+
+        .comments-section {
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .comments-section h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: #1a1a1a;
+        }
+
+        .language-switch {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .language-switch a {
+            margin-right: 1rem;
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        .language-switch a:hover {
+            text-decoration: underline;
+        }
+
+        .language-switch .current-lang {
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .highlight-blue {
+            color: #2563eb;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h1><a href="../index.html" style="color: inherit; text-decoration: none;">Guowei Zou</a></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#publications">Publications</a></li>
+                    <li><a href="../index.html#education">Education</a></li>
+                    <li><a href="../index.html#projects">Internship</a></li>
+                    <li><a href="../index.html#honors">Conference</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <article class="blog-post">
+                <div class="blog-header">
+                    <div class="language-switch">
+                        <a href="smart-but-lacking-judgment.html">English</a>
+                        <span class="current-lang">中文</span>
+                    </div>
+                    <h1 class="blog-title">聪明，但没有判断力：当下 AI 真正缺少的东西</h1>
+                    <p class="blog-meta">By Guowei Zou | December 4, 2025</p>
+                </div>
+
+                <div class="blog-content">
+                    <p>这几年和大模型一起工作，有一个直观越来越强：<span class="highlight-blue">我们已经非常擅长造"聪明"的系统了，但对什么叫"成熟的智能"，其实还没想明白。</span></p>
+
+                    <p>从指标上看，一切都在向前狂奔。预训练规模一再扩大，评测成绩一再刷新，o 系列、R 系列、各种 bench 上的分数节节攀升。只要看曲线，很容易产生一种乐观的错觉：只要继续往上堆，智能自然会在某个临界点"涌现"出来。</p>
+
+                    <p>可真正把模型放进复杂一点的场景，这种乐观感会迅速削弱。你会看到一种很诡异的反差：模型在代码题上表现得像资深竞赛选手，一道道题秒杀过去；但在真实项目里修一个 bug，却能在两个低级错误之间来回震荡，像被卡在某种看不见的局部最优里。它可以用漂亮的推理链回答问题，却没法对那些人类一眼就觉得"哪里不对"的方案产生本能的怀疑。它在考试环境下近乎完美，在开放环境中却显得出奇地脆弱。</p>
+
+                    <p><span class="highlight-blue">这不是简单的"能力不够"，更像是缺少一种内在的判断力。</span></p>
+
+                    <p>如果从训练流程回头看，这个结果并不意外。预训练阶段，模型在海量数据上拟合人类的语言和行为分布；之后，我们再用各种奖励、偏好、指标，对它进行强化和后训练，把它往"有用""安全""对齐"的方向推。整个过程里，它对 loss、对奖励信号极其敏感，但几乎所有"好坏标准"，都来自外部。它可以被塑造成一个极其擅长通过考试的系统，却很难形成一种跨任务、跨情境相对稳定的内部基准。<span class="highlight-blue">说得直白一点：我们训练出了一个非常会"刷题"的智能体，却没有真正教会它"怎样看待自己的行为"。</span></p>
+
+                    <p>这一点，和人类的学习方式形成了一个鲜明对照。青少年学开车，大约十几个小时就能上路；新人工程师在几个月内就能参与真实项目；研究生读了有限几篇论文，就敢开始提问题、搭实验。我们当然受益于进化留下的感知与运动先验，但光靠这些先验，恐怕还不足以解释这种样本效率。真正关键的，可能是另一层：人类在行动和思考的过程中，总有一种持续在线的"内在感受"在打分。</p>
+
+                    <p>当我们做事做偏了，往往会在很早的阶段就生出一种"哪里不太对劲"的不安；当我们在一个论证分支里越走越深，身体会隐约提醒你"再往下推好像意义不大了"；面对几种方案，即便一时说不清理由，也会对其中某一类产生更稳妥、更可靠的亲近感。情绪、直觉、经验在这里共同构成了一个模糊但有力的结构，它们并不精确，也谈不上形式化，却在长期上给出了鲁棒的指引。</p>
+
+                    <p>从机器学习的视角看，<span class="highlight-blue">这其实就是一种价值函数——不是写在论文里的那个符号，而是深埋在神经系统里的、对整条轨迹进行实时评估的机制。</span>它不会等到"任务结束"才给出奖励，而是在每一次微小的决策分叉处都介入一点：这里要不要停？那边要不要绕开？这一连串微调叠加起来，让人类可以在信息极不完整的情况下，依然保持一个大致合理的方向，而不至于彻底走到极端。</p>
+
+                    <p>而现在的大模型，大多缺少这一层。它们对"给定的目标函数"极其敏感，却几乎没有任何属于自己的、可以跨任务迁移的"价值基准"。在不同的强化环境里，它可以被训练得非常合格，甚至非常"听话"，但只要换了场景、换了利益相关方、换了时间尺度，一切判断就需要被重新定义。我们仿佛一直在做的是：不断为一个强大的函数逼近器更换外部奖励，而不是在帮助一个智能体逐步长出自己的内在标准。</p>
+
+                    <p>如果把 AGI 想象成一个未来可能存在的"超级智能体"，我现在越来越不愿意仅用"能力边界"来定义它。<span class="highlight-blue">一个成熟的智能，首先应该是一个高效而稳健的学习系统：能够用很少的经验捕捉结构，能够在不同任务之间无损地整合知识，更重要的是，能够在行动的过程中随时评估"这条路值不值得继续走下去"。</span>其次，它需要有一个不会因为任务切换而完全漂移的价值框架——无论是在写代码、做科学还是面对具体的人，它都能维持某种一致的判断：哪些事情即便短期有利，也不应该做；哪些方向即便短期艰难，也值得坚持。</p>
+
+                    <p>如果没有这样的内在框架，再强的系统也很容易退化成一种极端优化器，在某个被错误设定的目标上一路加速；而一旦有了这一层，它才有可能在长期上表现出某种稳定的"品味"，让我们有机会理解它、与它协作，甚至在一定程度上信任它。</p>
+
+                    <p>这也是为什么，我做研究的关注点这些年悄悄发生了偏移。刚开始做强化学习和生成模型时，我的目标很简单：把指标往上推一点，再推一点，让世界模型更准一点，让策略在 benchmark 上多赢几个百分点。现在这些事情依然重要，但我越来越难把它们当成"终点"。在调一个新 loss、设计一个新训练流程之前，我会习惯性地问自己一句：这一步，是在把未来的智能体往什么样的方向塑造？</p>
+
+                    <p>我们是不是在不知不觉中，把一切都当成可以随时更换的 reward？<br>
+                    我们是不是过度依赖外部监督，而几乎没有探索内部评估的可能？<br>
+                    我们是不是把"模型表现好看"当成了唯一可靠的成功标准？</p>
+
+                    <p><span class="highlight-blue">在这个意义上，所谓"科研品味"本身就是一种价值函数。</span>它体现在一个研究者愿意花几年时间去啃哪类问题，愿意接受哪种程度的复杂度，愿意为哪种简洁性放弃多少短期收益。它决定了我们选择怎样的范式、怎样的数据、怎样的约束来训练下一代模型。而如果未来的 AI 真会在很大程度上继承我们今天的这些选择，那么这些看似技术性的抉择，其实是在为一种新型智能的"性格"打底色。</p>
+
+                    <p>也许，在可预见的未来很长一段时间里，我们仍然会继续把模型做大，把架构做深，把 RL 做得更高效，这是整个领域的自然演化。但在这些技术路径之下，还有一个更不显眼却更根本的问题：<span class="highlight-blue">我们到底希望创造一种什么样的智能？</span></p>
+
+                    <p>一个永远在奖励函数上狂奔、被各种评测牵着鼻子走的超级"刷题机器"，<br>
+                    还是一个带着稳定价值基准，愿意在复杂世界里保持克制、判断力和某种温度的学习者？</p>
+
+                    <p><span class="highlight-blue">也许，真正危险的不是我们造不出足够强的系统，而是我们在它变强之前，从未认真回答过这个问题。</span></p>
+
+                    <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> 返回主页</a>
+
+                    <!-- Comments Section -->
+                    <div class="comments-section">
+                        <h3>评论与讨论</h3>
+                        <script src="https://giscus.app/client.js"
+                                data-repo="Guowei-Zou/Guowei-Zou"
+                                data-repo-id="R_kgDOPKTpxg"
+                                data-category="General"
+                                data-category-id="DIC_kwDOPKTpxs4CxiHi"
+                                data-mapping="pathname"
+                                data-strict="0"
+                                data-reactions-enabled="1"
+                                data-emit-metadata="0"
+                                data-input-position="bottom"
+                                data-theme="preferred_color_scheme"
+                                data-lang="zh-CN"
+                                crossorigin="anonymous"
+                                async>
+                        </script>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Guowei Zou. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
