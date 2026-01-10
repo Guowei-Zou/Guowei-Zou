@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guowei Zou - CV / 邹国伟 - 简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Times New Roman", Georgia, "Microsoft YaHei", serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        /* Language Toggle */
+        .lang-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+            background: #fff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .lang-btn {
+            padding: 8px 16px;
+            border: 2px solid #1a365d;
+            background: #fff;
+            color: #1a365d;
+            font-size: 11pt;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .lang-btn:hover {
+            background: #e8f0fe;
+        }
+
+        .lang-btn.active {
+            background: #1a365d;
+            color: #fff;
+        }
+
+        .lang-btn.print-btn {
+            border-color: #047857;
+            color: #047857;
+        }
+
+        .lang-btn.print-btn:hover {
+            background: #ecfdf5;
+        }
+
+        .lang-btn.print-btn.active {
+            background: #047857;
+            color: #fff;
+        }
+
+        /* Print Mode Styles */
+        body.print-mode {
+            background: #fff;
+            padding: 0;
+        }
+
+        body.print-mode .lang-toggle {
+            position: relative;
+            top: 0;
+            right: 0;
+            justify-content: center;
+            margin: 15px auto;
+            box-shadow: none;
+            border: 1px solid #ddd;
+            max-width: fit-content;
+        }
+
+        body.print-mode .resume-wrapper {
+            padding: 0;
+            max-width: 100%;
+        }
+
+        body.print-mode .resume-section {
+            box-shadow: none;
+            margin-bottom: 0;
+            padding: 12mm 15mm;
+            border: none;
+        }
+
+        body.print-mode .header {
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+        }
+
+        body.print-mode .section {
+            margin-bottom: 10px;
+        }
+
+        body.print-mode .section-title {
+            margin-bottom: 6px;
+            padding-bottom: 2px;
+        }
+
+        body.print-mode .item {
+            margin-bottom: 6px;
+        }
+
+        body.print-mode .item-date {
+            background: none;
+            padding: 0;
+            font-weight: bold;
+        }
+
+        body.print-mode .highlight {
+            background: none;
+            text-decoration: underline;
+        }
+
+        body.print-mode .name {
+            font-size: 22pt;
+        }
+
+        body.print-mode .title {
+            font-size: 11pt;
+        }
+
+        body.print-mode a {
+            color: #333;
+        }
+
+        /* Print Mode Notice */
+        .print-notice {
+            display: none;
+            text-align: center;
+            padding: 10px;
+            background: #ecfdf5;
+            border: 1px solid #047857;
+            color: #047857;
+            margin: 10px auto;
+            max-width: 600px;
+            border-radius: 5px;
+            font-size: 10pt;
+        }
+
+        body.print-mode .print-notice {
+            display: block;
+        }
+
+        /* Resume Container */
+        .resume-wrapper {
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .resume-section {
+            background: #fff;
+            padding: 20mm;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .resume-section.hidden {
+            display: none;
+        }
+
+        /* Section Divider */
+        .section-divider {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14pt;
+            color: #1a365d;
+            font-weight: bold;
+            background: linear-gradient(90deg, transparent, #e8f0fe, transparent);
+            margin: 0 -20mm;
+            padding: 15px 20mm;
+        }
+
+        /* Header Section */
+        .header {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #1a365d;
+        }
+
+        .photo {
+            flex-shrink: 0;
+        }
+
+        .photo img {
+            width: 100px;
+            height: 130px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+
+        .basic-info {
+            flex: 1;
+        }
+
+        .name {
+            font-size: 26pt;
+            font-weight: bold;
+            color: #1a365d;
+            margin-bottom: 8px;
+            font-family: Georgia, "Microsoft YaHei", serif;
+        }
+
+        .title {
+            font-size: 12pt;
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            font-size: 10pt;
+            color: #555;
+        }
+
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #1a365d;
+            border-bottom: 1px solid #1a365d;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .zh .section-title {
+            text-transform: none;
+            letter-spacing: normal;
+        }
+
+        .section-content {
+            padding-left: 5px;
+        }
+
+        /* Education & Experience Items */
+        .item {
+            margin-bottom: 10px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 11pt;
+            color: #2d3748;
+        }
+
+        .item-date {
+            color: #1a365d;
+            font-size: 10pt;
+            font-weight: 600;
+            background: #e8f0fe;
+            padding: 1px 8px;
+            border-radius: 3px;
+        }
+
+        .item-subtitle {
+            color: #2b6cb0;
+            font-size: 10pt;
+            font-weight: 500;
+        }
+
+        .item-desc {
+            font-size: 10pt;
+            color: #4a5568;
+            margin-top: 3px;
+        }
+
+        /* List Items */
+        .list-item {
+            margin-bottom: 6px;
+            font-size: 10.5pt;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .list-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #1a365d;
+        }
+
+        /* Publications */
+        .pub-item {
+            margin-bottom: 8px;
+            font-size: 10pt;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .pub-item::before {
+            content: "[" attr(data-num) "]";
+            position: absolute;
+            left: 0;
+            color: #1a365d;
+            font-size: 9pt;
+        }
+
+        .pub-title {
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        .pub-venue {
+            font-style: italic;
+            color: #2b6cb0;
+            font-weight: 500;
+        }
+
+        .highlight {
+            background: #fef3c7;
+            padding: 0 3px;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+
+        .venue-accepted {
+            color: #047857;
+            font-weight: 600;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 130px 1fr;
+            gap: 5px 15px;
+            font-size: 10.5pt;
+        }
+
+        .skill-label {
+            font-weight: bold;
+            color: #444;
+        }
+
+        a {
+            color: #1a365d;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: #fff !important;
+                padding: 0 !important;
+            }
+
+            .lang-toggle,
+            .print-notice {
+                display: none !important;
+            }
+
+            .resume-wrapper {
+                padding: 0 !important;
+                max-width: 100% !important;
+            }
+
+            .resume-section {
+                box-shadow: none !important;
+                padding: 8mm 12mm !important;
+                margin-bottom: 0 !important;
+                page-break-after: always;
+                page-break-inside: avoid;
+            }
+
+            .resume-section:last-child {
+                page-break-after: auto;
+            }
+
+            .resume-section.hidden {
+                display: none !important;
+            }
+
+            .header {
+                margin-bottom: 10px !important;
+                padding-bottom: 8px !important;
+            }
+
+            .section {
+                margin-bottom: 8px !important;
+                page-break-inside: avoid;
+            }
+
+            .section-title {
+                margin-bottom: 5px !important;
+            }
+
+            .item {
+                margin-bottom: 5px !important;
+                page-break-inside: avoid;
+            }
+
+            .item-date {
+                background: none !important;
+                padding: 0 !important;
+            }
+
+            .highlight {
+                background: none !important;
+                text-decoration: underline;
+            }
+
+            .name {
+                font-size: 20pt !important;
+            }
+
+            .title {
+                font-size: 10pt !important;
+            }
+
+            @page {
+                margin: 10mm;
+                size: A4;
+            }
+
+            a {
+                color: #333 !important;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .resume-section {
+                padding: 15px;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+
+            .item-header {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .lang-toggle {
+                position: relative;
+                top: 0;
+                right: 0;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="lang-toggle">
+        <button class="lang-btn active" onclick="showLang('en')" id="btn-en">English</button>
+        <button class="lang-btn" onclick="showLang('zh')" id="btn-zh">中文</button>
+        <button class="lang-btn" onclick="showLang('both')" id="btn-both">Both</button>
+        <button class="lang-btn print-btn" onclick="togglePrintMode()" id="btn-print">Print Mode</button>
+    </div>
+
+    <!-- Print Notice -->
+    <div class="print-notice">
+        Print Mode is ON. Press <strong>Ctrl+P</strong> (or <strong>Cmd+P</strong> on Mac) to print. Click "Print Mode" again to exit.
+    </div>
+
+    <div class="resume-wrapper">
+        <!-- English Version -->
+        <div class="resume-section en" id="resume-en">
+            <!-- Header -->
+            <div class="header">
+                <div class="photo">
+                    <img src="assets/Guowei Zou.jpg" alt="Guowei Zou">
+                </div>
+                <div class="basic-info">
+                    <div class="name">Guowei Zou</div>
+                    <div class="title">Ph.D. Student | School of Computer Science and Engineering, Sun Yat-Sen University</div>
+                    <div class="contact-info">
+                        <span>Email: zougw2025@gmail.com</span>
+                        <span>Email: zougw@mail2.sysu.edu.cn</span>
+                        <span>Scholar: <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ" target="_blank">scholar.google.com/citations?user=NsvS6l4AAAAJ</a></span>
+                        <span>Homepage: <a href="https://guowei-zou.github.io/Guowei-Zou" target="_blank">guowei-zou.github.io/Guowei-Zou</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biography -->
+            <div class="section">
+                <div class="section-title">Biography</div>
+                <div class="section-content" style="text-align: justify;">
+                    <p style="margin-bottom: 8px;">I am currently a <strong>Ph.D. student</strong> at <span class="highlight">Sun Yat-Sen University</span>, School of Computer Science and Engineering, specializing in <span class="highlight">Embodied Intelligence</span> with a focus on <strong>Reinforcement Learning</strong> and <strong>Generative Models for Robotics Control</strong>. Previously, I worked as a Hardware Engineer at <span class="highlight">Huawei Technologies Co., Ltd.</span> and during my Master's degree at Sun Yat-Sen University (<em>State Key Laboratory of Optoelectronic Materials and Technologies</em>), I was mainly dedicated to the application of <strong>artificial intelligence</strong> in <em>3D display and VR/AR technologies</em>.</p>
+                    <p style="margin-bottom: 8px;">My research lies at the intersection of <span class="highlight">artificial intelligence and robotics</span>, where I explore how <strong>generative modeling</strong> and <strong>reinforcement learning</strong> can be unified to create <em>embodied agents</em> capable of <em>reasoning, adaptation, and real-time decision-making</em> in the physical world.</p>
+                </div>
+            </div>
+
+            <!-- Research Interests -->
+            <div class="section">
+                <div class="section-title">Research Interests</div>
+                <div class="section-content">
+                    <div class="list-item"><strong>Embodied Intelligence</strong> - Developing intelligent agents capable of perceiving, reasoning, and acting in physical environments</div>
+                    <div class="list-item"><strong>Reinforcement Learning</strong> - Advanced algorithms for decision-making and control in robotics and autonomous systems</div>
+                    <div class="list-item"><strong>Generative Models for Robotics</strong> - Applying generative models for robotics control and motion planning</div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="section-content">
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Sun Yat-Sen University - Ph.D. in Computer Science and Technology</span>
+                            <span class="item-date">2024 - Present</span>
+                        </div>
+                        <div class="item-subtitle">School of Computer Science and Engineering | Advisor: Prof. Hejun Wu</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Sun Yat-Sen University - M.Eng. in Electronic Science and Technology</span>
+                            <span class="item-date">2020 - 2023</span>
+                        </div>
+                        <div class="item-subtitle">State Key Laboratory of Optoelectronic Materials and Technologies | Advisor: Assoc. Prof. Zong Qin</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">China Agricultural University - B.Eng. in Electronic Information Engineering</span>
+                            <span class="item-date">2016 - 2020</span>
+                        </div>
+                        <div class="item-subtitle">College of Information and Electrical Engineering</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="section">
+                <div class="section-title">Work Experience</div>
+                <div class="section-content">
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Huawei Technologies Co., Ltd. - Hardware Engineer</span>
+                            <span class="item-date">2023 - 2024</span>
+                        </div>
+                        <div class="item-subtitle">Consumer BG - Display & Touch Division</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Publications -->
+            <div class="section">
+                <div class="section-title">Publications</div>
+                <div class="section-content">
+                    <div class="pub-item" data-num="1">
+                        <span class="pub-title">D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss</span><br>
+                        <span class="highlight">Guowei Zou</span>, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang<br>
+                        <span class="pub-venue">AAAI 2026</span> <span class="venue-accepted">(Accepted)</span>
+                    </div>
+                    <div class="pub-item" data-num="2">
+                        <span class="pub-title">DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation</span><br>
+                        <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
+                        <span class="pub-venue">arXiv Preprint, 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Patents -->
+            <div class="section">
+                <div class="section-title">Patents</div>
+                <div class="section-content">
+                    <div class="list-item">Z. Qin, <span class="highlight">G. Zou</span>, et al. Adaptive Refresh Rate Field Sequential Color Display. ZL2022103803143 <span class="venue-accepted">(Granted, 2025)</span></div>
+                    <div class="list-item">Z. Qin, <span class="highlight">G. Zou</span>, et al. Deep Learning-based Control for Field Sequential Display. ZL2021107930745 <span class="venue-accepted">(Granted, 2023)</span></div>
+                    <div class="list-item">Z. Qin, W. Yang, Y. Cheng, <span class="highlight">G. Zou</span>, et al. High-resolution Light Field Display Method. ZL2021108736155 <span class="venue-accepted">(Granted, 2022)</span></div>
+                </div>
+            </div>
+
+            <!-- Internship -->
+            <div class="section">
+                <div class="section-title">Internship Experience</div>
+                <div class="section-content">
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">China Star Optoelectronics Technology Co., Ltd. (CSOT)</span>
+                            <span class="item-date">2022 - 2023</span>
+                        </div>
+                        <div class="item-subtitle">Field Sequential Color Display</div>
+                        <div class="item-desc">Hardware implementation of field sequential color display systems for advanced display technologies.</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Huawei Technologies Co., Ltd.</span>
+                            <span class="item-date">2021 - 2023</span>
+                        </div>
+                        <div class="item-subtitle">Virtual Reality AR-HUD Project</div>
+                        <div class="item-desc">AI-based image quality enhancement for Picture Generation Unit in AR Head-Up Display systems.</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Vivo Mobile Communication Co., Ltd.</span>
+                            <span class="item-date">2021 - 2023</span>
+                        </div>
+                        <div class="item-subtitle">Under-Display Camera/Sensor Project</div>
+                        <div class="item-desc">Under-screen sensor modeling and deep learning-based signal enhancement for full-screen mobile phones.</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Tridium Inc. (Honeywell)</span>
+                            <span class="item-date">2019 - 2020</span>
+                        </div>
+                        <div class="item-subtitle">Smart Building IoT Project</div>
+                        <div class="item-desc">Worked on an IoT-based smart building management system focusing on control and automation; gained practical experience in intelligent building integration and obtained an IoT Engineer Certification (APAC).</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Wlkata Robotics</span>
+                            <span class="item-date">2019 - 2020</span>
+                        </div>
+                        <div class="item-subtitle">Robotic Arm Control Algorithms</div>
+                        <div class="item-desc">Advanced control algorithms for robotic arm systems, focusing on precision control and trajectory planning.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Awards -->
+            <div class="section">
+                <div class="section-title">Honors & Awards</div>
+                <div class="section-content">
+                    <div class="list-item"><strong>2021:</strong> <span class="venue-accepted">Best Paper Award</span>, PGWS Conference, Hong Kong</div>
+                    <div class="list-item"><strong>2020:</strong> Beijing Excellent Undergraduate Thesis, Beijing Municipal Government <span class="highlight">Top 0.9%</span> (27/3000)</div>
+                    <div class="list-item"><strong>2020:</strong> Excellent Undergraduate Thesis, China Agricultural University <span class="highlight">Top 3.3%</span> (100/3000)</div>
+                </div>
+            </div>
+
+            <!-- Conference -->
+            <div class="section">
+                <div class="section-title">Conference Presentations</div>
+                <div class="section-content">
+                    <div class="list-item">2022: SID Display Week, California, USA - Oral Presentation</div>
+                    <div class="list-item">2022: ICDT (International Conference on Display Technology), Fuzhou, China - Oral Presentation</div>
+                    <div class="list-item">2022: IDMC (International Display Manufacturing Conference), Taipei, China - Poster Presentation</div>
+                    <div class="list-item">2021: PGWS (Cross-Strait Postgraduate Workshop on Display Technology), Hong Kong - Oral Presentation</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chinese Version -->
+        <div class="resume-section zh hidden" id="resume-zh">
+            <!-- Header -->
+            <div class="header">
+                <div class="photo">
+                    <img src="assets/Guowei Zou.jpg" alt="邹国伟">
+                </div>
+                <div class="basic-info">
+                    <div class="name">邹国伟</div>
+                    <div class="title">博士研究生 | 中山大学计算机科学与工程学院</div>
+                    <div class="contact-info">
+                        <span>邮箱：zougw2025@gmail.com</span>
+                        <span>邮箱：zougw@mail2.sysu.edu.cn</span>
+                        <span>Google Scholar：<a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ" target="_blank">scholar.google.com/citations?user=NsvS6l4AAAAJ</a></span>
+                        <span>主页：<a href="https://guowei-zou.github.io/Guowei-Zou" target="_blank">guowei-zou.github.io/Guowei-Zou</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biography -->
+            <div class="section">
+                <div class="section-title">个人简介</div>
+                <div class="section-content" style="text-align: justify;">
+                    <p style="margin-bottom: 8px;">我目前是中山大学计算机科学与工程学院的博士研究生，研究方向为具身智能，专注于强化学习与机器人控制的生成模型。此前，我曾在华为技术有限公司担任硬件工程师。在中山大学攻读硕士学位期间（国家光电材料与技术重点实验室），我主要从事人工智能在3D显示和VR/AR技术中的应用研究。</p>
+                    <p style="margin-bottom: 8px;">我的研究处于人工智能与机器人技术的交叉领域，探索如何将生成模型与强化学习相结合，创造能够在物理世界中进行推理、适应和实时决策的具身智能体。</p>
+                </div>
+            </div>
+
+            <!-- Research Interests -->
+            <div class="section">
+                <div class="section-title">研究方向</div>
+                <div class="section-content">
+                    <div class="list-item"><strong>具身智能 (Embodied Intelligence)</strong> - 开发能够在物理环境中感知、推理和行动的智能体</div>
+                    <div class="list-item"><strong>强化学习 (Reinforcement Learning)</strong> - 机器人与自主系统的决策与控制算法</div>
+                    <div class="list-item"><strong>机器人生成模型 (Generative Models for Robotics)</strong> - 生成模型在机器人控制与运动规划中的应用</div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <div class="section-title">教育背景</div>
+                <div class="section-content">
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">中山大学 - 计算机科学与技术 博士</span>
+                            <span class="item-date">2024年 - 至今</span>
+                        </div>
+                        <div class="item-subtitle">计算机科学与工程学院 | 导师：吴贺俊 教授</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">中山大学 - 电子科学与技术 硕士</span>
+                            <span class="item-date">2020年 - 2023年</span>
+                        </div>
+                        <div class="item-subtitle">电子与信息工程学院 | 国家光电材料与技术重点实验室 | 导师：秦宗 副教授</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">中国农业大学 - 电子信息工程 学士</span>
+                            <span class="item-date">2016年 - 2020年</span>
+                        </div>
+                        <div class="item-subtitle">信息与电气工程学院</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="section">
+                <div class="section-title">工作经历</div>
+                <div class="section-content">
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">华为技术有限公司 - 硬件工程师</span>
+                            <span class="item-date">2023年 - 2024年</span>
+                        </div>
+                        <div class="item-subtitle">消费者业务 - 显示与触控部门</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Publications -->
+            <div class="section">
+                <div class="section-title">学术论文</div>
+                <div class="section-content">
+                    <div class="pub-item" data-num="1">
+                        <span class="pub-title">D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss</span><br>
+                        <span class="highlight">Guowei Zou</span>, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang<br>
+                        <span class="pub-venue">AAAI 2026</span> <span class="venue-accepted">(已录用)</span>
+                    </div>
+                    <div class="pub-item" data-num="2">
+                        <span class="pub-title">DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation</span><br>
+                        <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
+                        <span class="pub-venue">arXiv Preprint, 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Patents -->
+            <div class="section">
+                <div class="section-title">专利成果</div>
+                <div class="section-content">
+                    <div class="list-item">秦宗, <span class="highlight">邹国伟</span>, 等. 自适应刷新率场序彩色显示装置. ZL2022103803143 <span class="venue-accepted">(已授权, 2025)</span></div>
+                    <div class="list-item">秦宗, <span class="highlight">邹国伟</span>, 等. 基于深度学习的场序显示控制方法. ZL2021107930745 <span class="venue-accepted">(已授权, 2023)</span></div>
+                    <div class="list-item">秦宗, 杨文超, 程云帆, <span class="highlight">邹国伟</span>, 等. 高分辨率光场显示方法. ZL2021108736155 <span class="venue-accepted">(已授权, 2022)</span></div>
+                </div>
+            </div>
+
+            <!-- Internship -->
+            <div class="section">
+                <div class="section-title">实习经历</div>
+                <div class="section-content">
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">华星光电技术有限公司 (CSOT)</span>
+                            <span class="item-date">2022年 - 2023年</span>
+                        </div>
+                        <div class="item-subtitle">场序彩色显示项目</div>
+                        <div class="item-desc">3D显示技术的场序彩色显示系统硬件实现。</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">华为技术有限公司</span>
+                            <span class="item-date">2021年 - 2023年</span>
+                        </div>
+                        <div class="item-subtitle">虚拟现实AR-HUD项目</div>
+                        <div class="item-desc">AR抬头显示系统中图像生成单元的AI图像质量增强。</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">vivo移动通信有限公司</span>
+                            <span class="item-date">2021年 - 2023年</span>
+                        </div>
+                        <div class="item-subtitle">屏下摄像头/传感器项目</div>
+                        <div class="item-desc">全面屏手机的屏下传感器建模及基于深度学习的信号增强。</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Tridium Inc. (霍尼韦尔)</span>
+                            <span class="item-date">2019年 - 2020年</span>
+                        </div>
+                        <div class="item-subtitle">智慧楼宇物联网项目</div>
+                        <div class="item-desc">参与基于物联网的智慧楼宇管理系统开发，专注于控制与自动化；获得物联网工程师认证 (APAC)。</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Wlkata Robotics</span>
+                            <span class="item-date">2019年 - 2020年</span>
+                        </div>
+                        <div class="item-subtitle">机械臂控制算法</div>
+                        <div class="item-desc">机械臂系统的高级控制算法开发，专注于精密控制与轨迹规划。</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Awards -->
+            <div class="section">
+                <div class="section-title">荣誉奖项</div>
+                <div class="section-content">
+                    <div class="list-item">2021年 PGWS 学术会议最佳论文奖 (香港)</div>
+                    <div class="list-item">2020年 北京市优秀本科毕业论文 (0.9%, 27/3000)</div>
+                    <div class="list-item">2020年 中国农业大学优秀本科毕业论文 (3.3%, 100/3000)</div>
+                </div>
+            </div>
+
+            <!-- Conference -->
+            <div class="section">
+                <div class="section-title">学术会议</div>
+                <div class="section-content">
+                    <div class="list-item">2022年 SID Display Week，美国加利福尼亚 - 口头报告</div>
+                    <div class="list-item">2022年 ICDT 国际显示技术会议，中国福州 - 口头报告</div>
+                    <div class="list-item">2022年 IDMC 国际显示制造会议，中国台北 - 海报展示</div>
+                    <div class="list-item">2021年 PGWS 两岸显示技术研究生工作坊，中国香港 - 口头报告</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showLang(lang) {
+            const enSection = document.getElementById('resume-en');
+            const zhSection = document.getElementById('resume-zh');
+            const btnEn = document.getElementById('btn-en');
+            const btnZh = document.getElementById('btn-zh');
+            const btnBoth = document.getElementById('btn-both');
+
+            // Remove active class from language buttons
+            btnEn.classList.remove('active');
+            btnZh.classList.remove('active');
+            btnBoth.classList.remove('active');
+
+            if (lang === 'en') {
+                enSection.classList.remove('hidden');
+                zhSection.classList.add('hidden');
+                btnEn.classList.add('active');
+            } else if (lang === 'zh') {
+                enSection.classList.add('hidden');
+                zhSection.classList.remove('hidden');
+                btnZh.classList.add('active');
+            } else {
+                enSection.classList.remove('hidden');
+                zhSection.classList.remove('hidden');
+                btnBoth.classList.add('active');
+            }
+        }
+
+        function togglePrintMode() {
+            const body = document.body;
+            const btnPrint = document.getElementById('btn-print');
+
+            body.classList.toggle('print-mode');
+            btnPrint.classList.toggle('active');
+
+            if (body.classList.contains('print-mode')) {
+                btnPrint.textContent = 'Exit Print';
+            } else {
+                btnPrint.textContent = 'Print Mode';
+            }
+        }
+
+        // Check URL hash on load
+        window.onload = function() {
+            const hash = window.location.hash.replace('#', '');
+            if (hash === 'zh') {
+                showLang('zh');
+            } else if (hash === 'both') {
+                showLang('both');
+            } else {
+                showLang('en');
+            }
+        };
+    </script>
+</body>
+</html>
