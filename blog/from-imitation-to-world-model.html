@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Imitation to Exploration to World Models - Guowei Zou</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-15TDJP964H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-15TDJP964H');
+    </script>
+
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .blog-header {
+            margin-bottom: 3rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 2rem;
+        }
+
+        .blog-title {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .blog-meta {
+            font-family: 'Times New Roman', Times, serif;
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .blog-content {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #333;
+            text-align: justify;
+        }
+
+        .blog-content h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .blog-content em {
+            font-style: italic;
+        }
+
+        .blog-content strong {
+            font-weight: 600;
+        }
+
+        .key-point {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 1.5rem 0;
+            padding-left: 1rem;
+            border-left: 4px solid #3498db;
+            font-style: italic;
+            text-align: justify;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 3rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+
+        .back-link:hover {
+            background-color: #e0e0e0;
+        }
+
+        .comments-section {
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .comments-section h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: #1a1a1a;
+        }
+
+        .language-switch {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .language-switch a {
+            margin-right: 1rem;
+            color: #0000EE;
+            text-decoration: none;
+        }
+
+        .language-switch a:hover {
+            text-decoration: underline;
+        }
+
+        .language-switch .current-lang {
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .epigraph {
+            font-style: italic;
+            color: #555;
+            border-left: 3px solid #ccc;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h1><a href="../index.html" style="color: inherit; text-decoration: none;">Guowei Zou</a></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#publications">Publications</a></li>
+                    <li><a href="../index.html#education">Education</a></li>
+                    <li><a href="../index.html#projects">Internship</a></li>
+                    <li><a href="../index.html#honors">Conference</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <article class="blog-post">
+                <div class="blog-header">
+                    <div class="language-switch">
+                        <span class="current-lang">English</span>
+                        <a href="from-imitation-to-world-model-zh.html">中文</a>
+                    </div>
+                    <h1 class="blog-title">From Imitation to Exploration to World Models</h1>
+                    <p class="blog-meta">By Guowei Zou | December 31, 2025</p>
+                </div>
+
+                <div class="blog-content">
+                    <p class="epigraph">It is often only in stillness that we truly begin to think.</p>
+
+                    <p>When the external rhythm slows down, many neglected questions gradually surface: How do we actually learn? And at what point do we begin to truly understand the world?</p>
+
+                    <p>In the course of studying artificial intelligence, I have increasingly come to realize that the learning trajectory of humans and the learning paradigm of intelligent agents are strikingly similar in structure. This is not merely a technical analogy—it points to the same fundamental question: <strong>How does cognition form?</strong></p>
+
+                    <h2>I. Imitation Is the Starting Point of All Learning</h2>
+
+                    <p>Whether human or machine, learning almost always begins with imitation.</p>
+
+                    <p>In robot policy learning, the most effective approach is often not to let the model explore the unknown from the start, but rather to first acquire a stable, executable policy by imitating expert behavior. Imitation allows a system to quickly understand "what constitutes reasonable behavior" and prevents the learning process from descending into chaos.</p>
+
+                    <p>The same is true for humans. Our earliest learning is not creation, but imitation. We imitate our parents' language, imitate others' ways of thinking, imitate established paths to success. Imitation gives us a foothold in a complex world and prevents our cognition from collapsing.</p>
+
+                    <span class="key-point">In this sense, imitation is not a primitive stage, but a necessary process of convergence. It provides structure for all subsequent thought.</span>
+
+                    <h2>II. Exploration Emerges Not as Rebellion, but as Maturity</h2>
+
+                    <p>Yet imitation is never the endpoint.</p>
+
+                    <p>When a system has accumulated sufficient experience, merely reproducing existing behaviors gradually reveals its limitations. The model begins making similar decisions in similar situations, yet struggles to cope with changes over longer time horizons—appearing stable in the short term, but frequently failing over time.</p>
+
+                    <p>At this moment, exploration naturally emerges.</p>
+
+                    <p>Exploration is not reckless experimentation, but a tentative loosening of existing structures. It means beginning to ask:<br>
+                    <em>"Why must it only be this way?"</em><br>
+                    Rather than merely asking:<br>
+                    <em>"How can I do it more like the original?"</em></p>
+
+                    <p>This is equally true in human development. When a person begins to feel uneasy about "correct answers" and starts questioning established paths, this is not rebellion—it is a signal of cognitive maturity.</p>
+
+                    <p>This has led me to form a clear judgment:</p>
+
+                    <p><strong>Imitation learning should continue until the moment you begin to doubt the "correct answer" itself.</strong></p>
+
+                    <p>This doubt is not denial, but an awakening to boundaries. It means recognizing that what is considered "correct" often holds only under specific assumptions; once the environment changes, the answer must be reconstructed accordingly.</p>
+
+                    <p>When a person begins to identify these implicit premises and realizes they are not eternal truths, they have truly entered the stage of exploration. From this moment on, imitation is no longer dependence but becomes background; exploration is no longer adventure but becomes responsibility.</p>
+
+                    <h2>III. What Truly Determines the Upper Limit of Exploration Is the World Model</h2>
+
+                    <p>However, exploration itself does not guarantee progress.</p>
+
+                    <p>In intelligent agents, we frequently observe the following phenomenon: certain policies perform well in short-term rollouts, yet collapse rapidly over longer time scales. The reason is not insufficient exploration, but that the agent's internal world model fails to correctly capture causal relationships.</p>
+
+                    <p>The world model determines:</p>
+                    <ul style="margin-bottom: 1.5rem; padding-left: 2rem;">
+                        <li>Given the current state, what might happen in the future;</li>
+                        <li>Which actions are worth attempting, and which costs are unbearable.</li>
+                    </ul>
+
+                    <p>If the model itself is distorted, then the more exploration occurs, the greater the deviation becomes.</p>
+
+                    <p>This holds equally true in real life.</p>
+
+                    <p>A person who grows up in an environment filled with false information, manipulation, and misdirection will struggle to form reliable judgment structures, no matter how hard they try to explore. Conversely, when a person is long exposed to real, stable, and verifiable feedback, their world model gradually becomes clear and robust, giving their exploration a sense of direction.</p>
+
+                    <span class="key-point">From this perspective, the quality of the world model is far more important than exploration itself.</span>
+
+                    <h2>IV. Moving Forward in Uncertainty</h2>
+
+                    <p>Perhaps, whether for machines or humans, the truly difficult thing has never been learning itself, but judging when to continue imitating and when to venture into the unknown.</p>
+
+                    <p>The upper limit of exploration does not depend on courage itself, but on whether the world we have learned from is authentic.<br>
+                    And true maturity is daring to move forward in uncertainty while maintaining humility.</p>
+
+                    <span class="key-point">When a person can continuously calibrate their world model amid complexity, the path they walk is no longer merely an extension of imitation, but a trajectory that is truly their own.</span>
+
+                    <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+                    <!-- Comments Section -->
+                    <div class="comments-section">
+                        <h3>Comments & Discussion</h3>
+                        <script src="https://giscus.app/client.js"
+                                data-repo="Guowei-Zou/Guowei-Zou"
+                                data-repo-id="R_kgDOPKTpxg"
+                                data-category="General"
+                                data-category-id="DIC_kwDOPKTpxs4CxiHi"
+                                data-mapping="pathname"
+                                data-strict="0"
+                                data-reactions-enabled="1"
+                                data-emit-metadata="0"
+                                data-input-position="bottom"
+                                data-theme="preferred_color_scheme"
+                                data-lang="en"
+                                crossorigin="anonymous"
+                                async>
+                        </script>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Guowei Zou. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
