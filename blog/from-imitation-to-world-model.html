@@ -182,73 +182,45 @@
                 </div>
 
                 <div class="blog-content">
-                    <p class="epigraph">It is often only in stillness that we truly begin to think.</p>
+                    <p>Here's something I've been thinking about: the way robots learn and the way we learn aren't all that different.</p>
 
-                    <p>When the external rhythm slows down, many neglected questions gradually surface: How do we actually learn? And at what point do we begin to truly understand the world?</p>
+                    <h2>Learning to Copy First</h2>
 
-                    <p>In the course of studying artificial intelligence, I have increasingly come to realize that the learning trajectory of humans and the learning paradigm of intelligent agents are strikingly similar in structure. This is not merely a technical analogy—it points to the same fundamental question: <strong>How does cognition form?</strong></p>
+                    <p>Anyone who works on robot policy learning knows this: let a model explore randomly from scratch, and it's going to be a disaster. You have to show it how an expert does things first. That's behavior cloning, pretty standard stuff in the field.</p>
 
-                    <h2>I. Imitation Is the Starting Point of All Learning</h2>
+                    <p>Think about how we pick up new skills. Speaking, writing, riding a bike. We all start by watching someone else and copying what they do. Even in grad school, your first paper is basically imitating the structure of a few good ones you've read.</p>
 
-                    <p>Whether human or machine, learning almost always begins with imitation.</p>
+                    <p>Imitation doesn't sound glamorous, but it works. It gives you a baseline that actually runs, so you don't crash and burn right out of the gate.</p>
 
-                    <p>In robot policy learning, the most effective approach is often not to let the model explore the unknown from the start, but rather to first acquire a stable, executable policy by imitating expert behavior. Imitation allows a system to quickly understand "what constitutes reasonable behavior" and prevents the learning process from descending into chaos.</p>
+                    <h2>When to Break Free</h2>
 
-                    <p>The same is true for humans. Our earliest learning is not creation, but imitation. We imitate our parents' language, imitate others' ways of thinking, imitate established paths to success. Imitation gives us a foothold in a complex world and prevents our cognition from collapsing.</p>
+                    <p>The thing is, imitation alone won't get you very far.</p>
 
-                    <span class="key-point">In this sense, imitation is not a primitive stage, but a necessary process of convergence. It provides structure for all subsequent thought.</span>
+                    <p>I run into this all the time in experiments: a model does fine within the training distribution, then falls apart as soon as the scenario changes. It learned what to do, but not why. So when things shift even slightly, it's lost.</p>
 
-                    <h2>II. Exploration Emerges Not as Rebellion, but as Maturity</h2>
+                    <p>I've been through similar phases myself. Early on, I kept looking for the "right" methodology, thinking I just needed to follow the recipe. Then I realized most of those "right ways" come with assumptions baked in. Change the problem, and they might not apply anymore.</p>
 
-                    <p>Yet imitation is never the endpoint.</p>
+                    <p>So when should you move from imitation to exploration? I think there's a signal: <strong>when you start questioning the standard answer.</strong></p>
 
-                    <p>When a system has accumulated sufficient experience, merely reproducing existing behaviors gradually reveals its limitations. The model begins making similar decisions in similar situations, yet struggles to cope with changes over longer time horizons—appearing stable in the short term, but frequently failing over time.</p>
+                    <p>Not just to be contrarian, but because you notice the answer rests on assumptions, and your situation might be different.</p>
 
-                    <p>At this moment, exploration naturally emerges.</p>
+                    <h2>Exploration Can Go Wrong Too</h2>
 
-                    <p>Exploration is not reckless experimentation, but a tentative loosening of existing structures. It means beginning to ask:<br>
-                    <em>"Why must it only be this way?"</em><br>
-                    Rather than merely asking:<br>
-                    <em>"How can I do it more like the original?"</em></p>
+                    <p>Of course, being willing to explore doesn't mean you'll explore in the right direction.</p>
 
-                    <p>This is equally true in human development. When a person begins to feel uneasy about "correct answers" and starts questioning established paths, this is not rebellion—it is a signal of cognitive maturity.</p>
+                    <p>In RL, there's this concept called the world model: the agent's internal picture of how things work. If that picture is wrong, the more you explore, the further off track you go. It's like navigating with a bad map. The farther you walk, the more lost you get.</p>
 
-                    <p>This has led me to form a clear judgment:</p>
+                    <p>Same goes for people. If someone grows up surrounded by bad information, their mental model is already flawed. All the "independent thinking" in the world won't help if you're just spinning inside a broken framework.</p>
 
-                    <p><strong>Imitation learning should continue until the moment you begin to doubt the "correct answer" itself.</strong></p>
+                    <p>So maybe the real question isn't "should I explore?" It's: Is what you're learning actually true? Are your sources reliable? Is the feedback you're getting pointing you in the right direction?</p>
 
-                    <p>This doubt is not denial, but an awakening to boundaries. It means recognizing that what is considered "correct" often holds only under specific assumptions; once the environment changes, the answer must be reconstructed accordingly.</p>
+                    <h2>Finding Your Own Path</h2>
 
-                    <p>When a person begins to identify these implicit premises and realizes they are not eternal truths, they have truly entered the stage of exploration. From this moment on, imitation is no longer dependence but becomes background; exploration is no longer adventure but becomes responsibility.</p>
+                    <p>At the end of the day, whether you're training a robot or figuring out what to do with your life, the core question is similar: when to follow, and when to try things on your own.</p>
 
-                    <h2>III. What Truly Determines the Upper Limit of Exploration Is the World Model</h2>
+                    <p>There's no formula for that. But if you keep questioning, keep updating your mental model based on what you see, you're probably headed somewhere good.</p>
 
-                    <p>However, exploration itself does not guarantee progress.</p>
-
-                    <p>In intelligent agents, we frequently observe the following phenomenon: certain policies perform well in short-term rollouts, yet collapse rapidly over longer time scales. The reason is not insufficient exploration, but that the agent's internal world model fails to correctly capture causal relationships.</p>
-
-                    <p>The world model determines:</p>
-                    <ul style="margin-bottom: 1.5rem; padding-left: 2rem;">
-                        <li>Given the current state, what might happen in the future;</li>
-                        <li>Which actions are worth attempting, and which costs are unbearable.</li>
-                    </ul>
-
-                    <p>If the model itself is distorted, then the more exploration occurs, the greater the deviation becomes.</p>
-
-                    <p>This holds equally true in real life.</p>
-
-                    <p>A person who grows up in an environment filled with false information, manipulation, and misdirection will struggle to form reliable judgment structures, no matter how hard they try to explore. Conversely, when a person is long exposed to real, stable, and verifiable feedback, their world model gradually becomes clear and robust, giving their exploration a sense of direction.</p>
-
-                    <span class="key-point">From this perspective, the quality of the world model is far more important than exploration itself.</span>
-
-                    <h2>IV. Moving Forward in Uncertainty</h2>
-
-                    <p>Perhaps, whether for machines or humans, the truly difficult thing has never been learning itself, but judging when to continue imitating and when to venture into the unknown.</p>
-
-                    <p>The upper limit of exploration does not depend on courage itself, but on whether the world we have learned from is authentic.<br>
-                    And true maturity is daring to move forward in uncertainty while maintaining humility.</p>
-
-                    <span class="key-point">When a person can continuously calibrate their world model amid complexity, the path they walk is no longer merely an extension of imitation, but a trajectory that is truly their own.</span>
+                    <p>Finding your own path isn't about knowing the destination upfront. It's about correcting the map as you go.</p>
 
                     <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
 
