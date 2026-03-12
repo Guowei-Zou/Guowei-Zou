@@ -1,11 +1,12 @@
 // Academic Homepage Script - Minimal and Clean
 
-// Smooth scrolling for navigation links
+// Smooth scrolling for same-page anchor links only
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+        const href = this.getAttribute('href');
+        const target = document.querySelector(href);
         if (target) {
+            e.preventDefault();
             const headerOffset = 100;
             const elementPosition = target.getBoundingClientRect().top;
             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
@@ -16,6 +17,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
         }
     });
+});
+
+// Highlight active nav link based on current page
+const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.nav-menu a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentPage || (currentPage === 'index.html' && href.startsWith('#'))) {
+        // For subpages, mark the matching link as active
+        if (href === currentPage) {
+            link.classList.add('active');
+        }
+    }
 });
 
 // Simple navbar scroll effect

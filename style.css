@@ -122,6 +122,11 @@ a:visited {
     text-decoration: underline;
 }
 
+.nav-menu a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* Main Content */
 .container {
     max-width: 900px;
