@@ -13,7 +13,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
 <table>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://raw.githubusercontent.com/Guowei-Zou/coflow/main/assets/overview.png" alt="CoFlow overview" width="260">
+      <img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/coflow_overview.png" alt="CoFlow overview" width="260">
     </td>
     <td valign="top">
       <strong>[May 2026] CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making.</strong><br>
