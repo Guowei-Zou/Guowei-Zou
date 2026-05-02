@@ -20,7 +20,6 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
       Guowei Zou, Haitao Wang, Beiwen Zhang, Boning Zhang, Hejun Wu.<br>
       <a href="https://guowei-zou.github.io/coflow/">Project Page</a> |
       <a href="https://github.com/Guowei-Zou/coflow-release">Code</a> |
-      <a href="https://guowei-zou.github.io/coflow/assets/paper.pdf">Paper</a> |
       <a href="https://huggingface.co/elainacamille/CoFlow-checkpoints">Checkpoints</a>
     </td>
   </tr>
