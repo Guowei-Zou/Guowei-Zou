@@ -12,7 +12,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
 
 <table>
   <tr>
-    <td width="280" valign="top">
+    <td width="280" valign="middle" align="center" bgcolor="#ffffff">
       <img src="https://raw.githubusercontent.com/Guowei-Zou/dmpo-page/master/images/abstract_image_page.png" alt="DMPO overview" width="260">
     </td>
     <td valign="top">
@@ -24,7 +24,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
     </td>
   </tr>
   <tr>
-    <td width="280" valign="top">
+    <td width="280" valign="middle" align="center" bgcolor="#ffffff">
       <img src="https://raw.githubusercontent.com/Guowei-Zou/dm1/master/images/abstract_image.png" alt="DM1 overview" width="260">
     </td>
     <td valign="top">
@@ -36,7 +36,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
     </td>
   </tr>
   <tr>
-    <td width="280" valign="top">
+    <td width="280" valign="middle" align="center" bgcolor="#ffffff">
       <img src="https://raw.githubusercontent.com/Guowei-Zou/d2ppo/master/images/Diffusion_representation_collapse.png" alt="D2PPO overview" width="260">
     </td>
     <td valign="top">
