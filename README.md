@@ -16,7 +16,7 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
       <img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/coflow_overview.png" alt="CoFlow overview" width="260">
     </td>
     <td valign="top">
-      <strong>[May 2026] CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making.</strong><br>
+      <strong>[May 2, 2026] CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making.</strong><br>
       Guowei Zou, Haitao Wang, Beiwen Zhang, Boning Zhang, Hejun Wu.<br>
       <a href="https://guowei-zou.github.io/coflow/">Project Page</a> |
       <a href="https://github.com/Guowei-Zou/coflow-release">Code</a> |
