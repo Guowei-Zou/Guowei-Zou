@@ -1,12 +1,21 @@
 # Guowei Zou
 
+[![Homepage](https://img.shields.io/badge/Homepage-1f72c1?style=for-the-badge&logo=githubpages&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamChou2025)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
+[![CV](https://img.shields.io/badge/CV-B31B1B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/resume.html)
+
 ## About Me
 I am currently a **PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering, specializing in **Embodied Intelligence** with a focus on **Reinforcement Learning** and **Generative Models for Robotics Control**.
 
 ## Research Interests
-- **Embodied Intelligence** - Developing intelligent agents that can perceive, reason, and act in physical environments
-- **Reinforcement Learning** - Advanced algorithms for decision-making and control in robotics and autonomous systems
-- **Generative Models for Robotics** - Applying generative models for robotics control and motion planning
+My research lies at the intersection of **artificial intelligence and robotics**, where I explore how *generative modeling* and *reinforcement learning* can be unified to create **embodied agents** capable of real-time decision-making in the physical world. I am currently focused on **World Models** and *RL-based policy optimization within world models*, enabling agents to plan and improve behaviors through imagined experience in learned latent spaces.
+
+- **Embodied Intelligence** — agents that perceive, reason, and act in physical environments
+- **World Models** — learning predictive latent models for planning and imagined experience
+- **Reinforcement Learning** — policy optimization for decision-making and robotic control
+- **Generative Models for Robotics** — diffusion- and flow-based generation for motion planning and control
 
 ## Papers
 
