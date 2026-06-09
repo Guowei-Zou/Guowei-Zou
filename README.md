@@ -1,10 +1,12 @@
 # Guowei Zou
 
-[![Homepage](https://img.shields.io/badge/Homepage-1f72c1?style=for-the-badge&logo=githubpages&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamChou2025)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
-[![CV](https://img.shields.io/badge/CV-B31B1B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/resume.html)
+📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)
+
+[![Homepage](https://img.shields.io/badge/Homepage-2F6FEB?style=flat-square&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/WilliamChou2025)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
+[![CV](https://img.shields.io/badge/CV-444444?style=flat-square&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/resume.html)
 
 ## About Me
 I am currently a **PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering, specializing in **Embodied Intelligence** with a focus on **Reinforcement Learning** and **Generative Models for Robotics Control**.
@@ -12,10 +14,10 @@ I am currently a **PhD student** at **Sun Yat-Sen University**, School of Comput
 ## Research Interests
 My research lies at the intersection of **artificial intelligence and robotics**, where I explore how *generative modeling* and *reinforcement learning* can be unified to create **embodied agents** capable of real-time decision-making in the physical world. I am currently focused on **World Models** and *RL-based policy optimization within world models*, enabling agents to plan and improve behaviors through imagined experience in learned latent spaces.
 
-- **Embodied Intelligence** — agents that perceive, reason, and act in physical environments
-- **World Models** — learning predictive latent models for planning and imagined experience
-- **Reinforcement Learning** — policy optimization for decision-making and robotic control
-- **Generative Models for Robotics** — diffusion- and flow-based generation for motion planning and control
+- **Embodied Intelligence**: agents that perceive, reason, and act in physical environments
+- **World Models**: learning predictive latent models for planning and imagined experience
+- **Reinforcement Learning**: policy optimization for decision-making and robotic control
+- **Generative Models for Robotics**: diffusion and flow based generation for motion planning and control
 
 ## Papers
 
@@ -76,10 +78,3 @@ My research lies at the intersection of **artificial intelligence and robotics**
 - **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
 - **Bachelor in Electronic Information Engineering** | China Agricultural University | 2016 - 2020
 
-## Contact
-- Email: [zougw2025@gmail.com](mailto:zougw2025@gmail.com)
-- Google Scholar: [Profile](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
-- ResearchGate: [Profile](https://www.researchgate.net/profile/Guowei-Zou)
-
----
-*Visit my [personal homepage](https://guowei-zou.github.io/Guowei-Zou/) for more details about my research and projects.*
