@@ -2,11 +2,11 @@
 
 📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)
 
-[![Homepage](https://img.shields.io/badge/Homepage-2F6FEB?style=flat-square&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/WilliamChou2025)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
-[![CV](https://img.shields.io/badge/CV-444444?style=flat-square&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/resume.html)
+[![Homepage](https://img.shields.io/badge/Homepage-2E7D32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamChou2025)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-004182?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
+[![CV](https://img.shields.io/badge/CV-C0392B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/resume.html)
 
 ## About Me
 I am currently a **PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering, specializing in **Embodied Intelligence** with a focus on **Reinforcement Learning** and **Generative Models for Robotics Control**.
