@@ -238,6 +238,14 @@
             gap: 5px;
         }
 
+        .contact-info .contact-full {
+            grid-column: 1 / -1;
+        }
+
+        .contact-info .contact-full a {
+            white-space: nowrap;
+        }
+
         /* Sections */
         .section {
             margin-bottom: 15px;
@@ -337,6 +345,11 @@
             color: #2d3748;
         }
 
+        .pub-item .item-date {
+            float: right;
+            margin-left: 12px;
+        }
+
         .pub-venue {
             font-style: italic;
             color: #2b6cb0;
@@ -396,14 +409,11 @@
 
             .resume-section {
                 box-shadow: none !important;
-                padding: 8mm 12mm !important;
+                padding: 12mm 15mm !important;
                 margin-bottom: 0 !important;
-                page-break-after: always;
-                page-break-inside: avoid;
-            }
-
-            .resume-section:last-child {
+                border: none !important;
                 page-break-after: auto;
+                page-break-inside: auto;
             }
 
             .resume-section.hidden {
@@ -411,27 +421,29 @@
             }
 
             .header {
-                margin-bottom: 10px !important;
-                padding-bottom: 8px !important;
+                margin-bottom: 12px !important;
+                padding-bottom: 10px !important;
             }
 
             .section {
-                margin-bottom: 8px !important;
-                page-break-inside: avoid;
+                margin-bottom: 10px !important;
+                page-break-inside: auto;
             }
 
             .section-title {
-                margin-bottom: 5px !important;
+                margin-bottom: 6px !important;
+                padding-bottom: 2px !important;
             }
 
             .item {
-                margin-bottom: 5px !important;
+                margin-bottom: 6px !important;
                 page-break-inside: avoid;
             }
 
             .item-date {
                 background: none !important;
                 padding: 0 !important;
+                font-weight: bold !important;
             }
 
             .highlight {
@@ -440,15 +452,15 @@
             }
 
             .name {
-                font-size: 20pt !important;
+                font-size: 22pt !important;
             }
 
             .title {
-                font-size: 10pt !important;
+                font-size: 11pt !important;
             }
 
             @page {
-                margin: 10mm;
+                margin: 0;
                 size: A4;
             }
 
@@ -512,12 +524,11 @@
                 </div>
                 <div class="basic-info">
                     <div class="name">Guowei Zou</div>
-                    <div class="title">Ph.D. Student | School of Computer Science and Engineering, Sun Yat-Sen University</div>
+                    <div class="title">Ph.D. Student | <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science and Engineering</a>, <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-Sen University</a></div>
                     <div class="contact-info">
                         <span>Email: zougw2025@gmail.com</span>
                         <span>Email: zougw@mail2.sysu.edu.cn</span>
-                        <span>Scholar: <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ" target="_blank">scholar.google.com/citations?user=NsvS6l4AAAAJ</a></span>
-                        <span>Homepage: <a href="https://guowei-zou.github.io/Guowei-Zou" target="_blank">guowei-zou.github.io/Guowei-Zou</a></span>
+                        <span class="contact-full">Homepage: <a href="https://guowei-zou.github.io/Guowei-Zou" target="_blank">guowei-zou.github.io/Guowei-Zou</a></span>
                     </div>
                 </div>
             </div>
@@ -526,18 +537,15 @@
             <div class="section">
                 <div class="section-title">Biography</div>
                 <div class="section-content" style="text-align: justify;">
-                    <p style="margin-bottom: 8px;">I am currently a <strong>Ph.D. student</strong> at <span class="highlight">Sun Yat-Sen University</span>, School of Computer Science and Engineering, specializing in <span class="highlight">Embodied Intelligence</span> with a focus on <strong>Reinforcement Learning</strong> and <strong>Generative Models for Robotics Control</strong>. Previously, I worked as a Hardware Engineer at <span class="highlight">Huawei Technologies Co., Ltd.</span> and during my Master's degree at Sun Yat-Sen University (<em>State Key Laboratory of Optoelectronic Materials and Technologies</em>), I was mainly dedicated to the application of <strong>artificial intelligence</strong> in <em>3D display and VR/AR technologies</em>.</p>
-                    <p style="margin-bottom: 8px;">My research lies at the intersection of <span class="highlight">artificial intelligence and robotics</span>, where I explore how <strong>generative modeling</strong> and <strong>reinforcement learning</strong> can be unified to create <em>embodied agents</em> capable of <em>reasoning, adaptation, and real-time decision-making</em> in the physical world.</p>
+                    <p style="margin-bottom: 8px;">I am currently a <strong>Ph.D. student</strong> at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank"><span class="highlight">Sun Yat-Sen University</span></a>, <a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science and Engineering</a>, specializing in <span class="highlight">Embodied Intelligence</span> with a focus on <strong>Reinforcement Learning</strong> and <strong>Generative Models for Robotics Control</strong>. Previously, I worked as a Hardware Engineer at <a href="https://www.huawei.com/eu/" target="_blank"><span class="highlight">Huawei Technologies Co., Ltd.</span></a> and during my Master's degree at <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-Sen University</a> (<a href="https://oemt.sysu.edu.cn/" target="_blank"><em>State Key Laboratory of Optoelectronic Materials and Technologies</em></a>), I was mainly dedicated to the application of <strong>artificial intelligence</strong> in <em>3D image processing for VR/AR</em>.</p>
                 </div>
             </div>
 
             <!-- Research Interests -->
             <div class="section">
                 <div class="section-title">Research Interests</div>
-                <div class="section-content">
-                    <div class="list-item"><strong>Embodied Intelligence</strong> - Developing intelligent agents capable of perceiving, reasoning, and acting in physical environments</div>
-                    <div class="list-item"><strong>Reinforcement Learning</strong> - Advanced algorithms for decision-making and control in robotics and autonomous systems</div>
-                    <div class="list-item"><strong>Generative Models for Robotics</strong> - Applying generative models for robotics control and motion planning</div>
+                <div class="section-content" style="text-align: justify;">
+                    <p>My research lies at the intersection of <span class="highlight">artificial intelligence and robotics</span>, focusing on <strong>Embodied Intelligence</strong>, <strong>World Models</strong>, <strong>Reinforcement Learning</strong>, and <strong>Generative Models for Robotics</strong>. I explore how generative modeling, reinforcement learning, and learned latent dynamics can be unified to create embodied agents capable of perceiving, planning, adapting, and making real-time decisions in physical environments.</p>
                 </div>
             </div>
 
@@ -547,24 +555,24 @@
                 <div class="section-content">
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Sun Yat-Sen University - Ph.D. in Computer Science and Technology</span>
+                            <span class="item-title"><a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-Sen University</a> - Ph.D. in Computer Science and Technology</span>
                             <span class="item-date">2024 - Present</span>
                         </div>
-                        <div class="item-subtitle">School of Computer Science and Engineering | Advisor: Prof. Hejun Wu</div>
+                        <div class="item-subtitle"><a href="https://cse.sysu.edu.cn/" target="_blank">School of Computer Science and Engineering</a> | Advisor: <a href="https://cse.sysu.edu.cn/teacher/WuHejun" target="_blank">Prof. Hejun Wu</a></div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Sun Yat-Sen University - M.Eng. in Electronic Science and Technology</span>
+                            <span class="item-title"><a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-Sen University</a> - M.Eng. in Electronic Science and Technology</span>
                             <span class="item-date">2020 - 2023</span>
                         </div>
-                        <div class="item-subtitle">State Key Laboratory of Optoelectronic Materials and Technologies | Advisor: Assoc. Prof. Zong Qin</div>
+                        <div class="item-subtitle"><a href="https://oemt.sysu.edu.cn/" target="_blank">State Key Laboratory of Optoelectronic Materials and Technologies</a> | Advisor: <a href="https://seit.sysu.edu.cn/teacher/QinZong" target="_blank">Assoc. Prof. Zong Qin</a></div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">China Agricultural University - B.Eng. in Electronic Information Engineering</span>
+                            <span class="item-title"><a href="https://en.cau.edu.cn/" target="_blank">China Agricultural University</a> - B.Eng. in Electronic Information Engineering</span>
                             <span class="item-date">2016 - 2020</span>
                         </div>
-                        <div class="item-subtitle">College of Information and Electrical Engineering</div>
+                        <div class="item-subtitle"><a href="https://ciee.cau.edu.cn/" target="_blank">College of Information and Electrical Engineering</a> | Advisor: <a href="https://faculty.cau.edu.cn/wzy/list.htm" target="_blank">Prof. Zhongyi Wang</a></div>
                     </div>
                 </div>
             </div>
@@ -575,37 +583,37 @@
                 <div class="section-content">
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Huawei Technologies Co., Ltd. - Hardware Engineer</span>
+                            <span class="item-title"><a href="https://www.huawei.com/eu/" target="_blank">Huawei Technologies Co., Ltd.</a> - Hardware Engineer</span>
                             <span class="item-date">2023 - 2024</span>
                         </div>
-                        <div class="item-subtitle">Consumer BG - Display & Touch Division</div>
+                        <div class="item-subtitle">Consumer BG</div>
                     </div>
                 </div>
             </div>
 
             <!-- Publications -->
             <div class="section">
-                <div class="section-title">Publications</div>
+                <div class="section-title">Selected Papers</div>
                 <div class="section-content">
                     <div class="pub-item" data-num="1">
-                        <span class="pub-title">CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making</span><br>
+                        <span class="pub-title">CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making</span><span class="item-date">2026</span><br>
                         <span class="highlight">Guowei Zou</span>, Haitao Wang, Beiwen Zhang, Boning Zhang, Hejun Wu<br>
-                        <span class="pub-venue">arXiv Preprint, 2026</span>
+                        <span class="pub-venue">arXiv Preprint, arXiv:2605.01457, 2026</span> [<a href="https://guowei-zou.github.io/coflow/" target="_blank">Project</a>] [<a href="https://github.com/Guowei-Zou/coflow-release" target="_blank">Code</a>] [<a href="https://arxiv.org/abs/2605.01457" target="_blank">arXiv</a>]
                     </div>
                     <div class="pub-item" data-num="2">
-                        <span class="pub-title">One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO)</span><br>
+                        <span class="pub-title">One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO)</span><span class="item-date">2026</span><br>
                         <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
-                        <span class="pub-venue">arXiv Preprint, 2026</span>
+                        <span class="pub-venue">arXiv Preprint, arXiv:2601.20701, 2026</span> [<a href="https://guowei-zou.github.io/dmpo-page/" target="_blank">Project</a>] [<a href="https://github.com/Guowei-Zou/dmpo-release" target="_blank">Code</a>] [<a href="https://arxiv.org/abs/2601.20701" target="_blank">arXiv</a>]
                     </div>
                     <div class="pub-item" data-num="3">
-                        <span class="pub-title">D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss</span><br>
-                        <span class="highlight">Guowei Zou</span>, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang<br>
-                        <span class="pub-venue">AAAI 2026</span> <span class="venue-accepted">(Accepted)</span>
+                        <span class="pub-title">DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation</span><span class="item-date">2025</span><br>
+                        <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
+                        <span class="pub-venue">arXiv Preprint, arXiv:2510.07865, 2025</span> [<a href="https://guowei-zou.github.io/dm1/" target="_blank">Project</a>] [<a href="https://github.com/Guowei-Zou/dm1-release" target="_blank">Code</a>] [<a href="https://arxiv.org/abs/2510.07865" target="_blank">arXiv</a>]
                     </div>
                     <div class="pub-item" data-num="4">
-                        <span class="pub-title">DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation</span><br>
-                        <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
-                        <span class="pub-venue">arXiv Preprint, 2025</span>
+                        <span class="pub-title">D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss</span><span class="item-date">2025</span><br>
+                        <span class="highlight">Guowei Zou</span>, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang<br>
+                        <span class="pub-venue">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)</span>; arXiv:2508.02644 [<a href="https://guowei-zou.github.io/d2ppo/" target="_blank">Project</a>] [<a href="https://github.com/Guowei-Zou/d2ppo-release" target="_blank">Code</a>] [<a href="https://arxiv.org/abs/2508.02644" target="_blank">arXiv</a>]
                     </div>
                 </div>
             </div>
@@ -614,9 +622,30 @@
             <div class="section">
                 <div class="section-title">Patents</div>
                 <div class="section-content">
-                    <div class="list-item">Z. Qin, <span class="highlight">G. Zou</span>, et al. Adaptive Refresh Rate Field Sequential Color Display. ZL2022103803143 <span class="venue-accepted">(Granted, 2025)</span></div>
-                    <div class="list-item">Z. Qin, <span class="highlight">G. Zou</span>, et al. Deep Learning-based Control for Field Sequential Display. ZL2021107930745 <span class="venue-accepted">(Granted, 2023)</span></div>
-                    <div class="list-item">Z. Qin, W. Yang, Y. Cheng, <span class="highlight">G. Zou</span>, et al. High-resolution Light Field Display Method. ZL2021108736155 <span class="venue-accepted">(Granted, 2022)</span></div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Z. Qin, Z. Zhao, <span class="highlight">G. Zou</span>, et al. Visible Light Communication Method, Device and System Using Field Sequential Color LCD. ZL2022114587970 (Granted)</span>
+                            <span class="item-date">2026</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Z. Qin, <span class="highlight">G. Zou</span>, et al. Adaptive Refresh Rate Field Sequential Color Display. ZL2022103803143 (Granted)</span>
+                            <span class="item-date">2025</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Z. Qin, <span class="highlight">G. Zou</span>, et al. Deep Learning-based Control for Field Sequential Display. ZL2021107930745 (Granted)</span>
+                            <span class="item-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Z. Qin, W. Yang, Y. Cheng, <span class="highlight">G. Zou</span>, et al. High-resolution Light Field Display Method. ZL2021108736155 (Granted)</span>
+                            <span class="item-date">2022</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -626,43 +655,38 @@
                 <div class="section-content">
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">China Star Optoelectronics Technology Co., Ltd. (CSOT)</span>
+                            <span class="item-title"><a href="https://en.tclcsot.com/" target="_blank">China Star Optoelectronics Technology Co., Ltd. (CSOT)</a></span>
                             <span class="item-date">2022 - 2023</span>
                         </div>
-                        <div class="item-subtitle">Field Sequential Color Display</div>
-                        <div class="item-desc">Hardware implementation of field sequential color display systems for advanced display technologies.</div>
+                        <div class="item-subtitle">AI for Image Enhancement: Computer-vision-based modeling and optimization for image quality improvement.</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Huawei Technologies Co., Ltd.</span>
+                            <span class="item-title"><a href="https://www.huawei.com/eu/" target="_blank">Huawei Technologies Co., Ltd.</a></span>
                             <span class="item-date">2021 - 2023</span>
                         </div>
-                        <div class="item-subtitle">Virtual Reality AR-HUD Project</div>
-                        <div class="item-desc">AI-based image quality enhancement for Picture Generation Unit in AR Head-Up Display systems.</div>
+                        <div class="item-subtitle">VR/AR Image Enhancement: AI-based image restoration and visual quality improvement for AR-HUD systems.</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Vivo Mobile Communication Co., Ltd.</span>
+                            <span class="item-title"><a href="https://www.vivo.com/en/" target="_blank">Vivo Mobile Communication Co., Ltd.</a></span>
                             <span class="item-date">2021 - 2023</span>
                         </div>
-                        <div class="item-subtitle">Under-Display Camera/Sensor Project</div>
-                        <div class="item-desc">Under-screen sensor modeling and deep learning-based signal enhancement for full-screen mobile phones.</div>
+                        <div class="item-subtitle">Mobile Vision Sensing: Deep learning-based sensor modeling and signal enhancement for mobile imaging.</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Tridium Inc. (Honeywell)</span>
+                            <span class="item-title"><a href="https://www.tridium.com/us/en" target="_blank">Tridium Inc.</a> (<a href="https://www.honeywell.com/us/en" target="_blank">Honeywell</a>)</span>
                             <span class="item-date">2019 - 2020</span>
                         </div>
-                        <div class="item-subtitle">Smart Building IoT Project</div>
-                        <div class="item-desc">Worked on an IoT-based smart building management system focusing on control and automation; gained practical experience in intelligent building integration and obtained an IoT Engineer Certification (APAC).</div>
+                        <div class="item-subtitle">AIoT Smart Building: Sensor data analysis and data-driven automation for smart building systems.</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Wlkata Robotics</span>
+                            <span class="item-title"><a href="https://cn.wlkata.com/en_index.php?langid=2" target="_blank">Wlkata Robotics</a></span>
                             <span class="item-date">2019 - 2020</span>
                         </div>
-                        <div class="item-subtitle">Robotic Arm Control Algorithms</div>
-                        <div class="item-desc">Advanced control algorithms for robotic arm systems, focusing on precision control and trajectory planning.</div>
+                        <div class="item-subtitle">Robotic Arm Control: Motion planning and control algorithms for robotic manipulation.</div>
                     </div>
                 </div>
             </div>
@@ -671,9 +695,42 @@
             <div class="section">
                 <div class="section-title">Honors & Awards</div>
                 <div class="section-content">
-                    <div class="list-item"><strong>2021:</strong> <span class="venue-accepted">Best Paper Award</span>, PGWS Conference, Hong Kong</div>
-                    <div class="list-item"><strong>2020:</strong> Beijing Excellent Undergraduate Thesis, Beijing Municipal Government <span class="highlight">Top 0.9%</span> (27/3000)</div>
-                    <div class="list-item"><strong>2020:</strong> Excellent Undergraduate Thesis, China Agricultural University <span class="highlight">Top 3.3%</span> (100/3000)</div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Distinguished Student Paper Award, International Conference on Display Technology (ICDT), Hefei, China</span>
+                            <span class="item-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Distinguished Student Paper Award, International Conference on Display Technology (ICDT), Nanjing, China</span>
+                            <span class="item-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Distinguished Student Paper Award, International Conference on Display Technology (ICDT), Fuzhou, China</span>
+                            <span class="item-date">2022</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Best Paper Award, Cross-Strait Postgraduate Workshop on Display Technology (PGWS), Hong Kong, China</span>
+                            <span class="item-date">2021</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Beijing Excellent Undergraduate Thesis, Beijing Municipal Government <span class="highlight">Top 0.9%</span> (27/3000)</span>
+                            <span class="item-date">2020</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">Excellent Undergraduate Thesis, <a href="https://en.cau.edu.cn/" target="_blank">China Agricultural University</a> <span class="highlight">Top 3.3%</span> (100/3000)</span>
+                            <span class="item-date">2020</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -681,10 +738,36 @@
             <div class="section">
                 <div class="section-title">Conference Presentations</div>
                 <div class="section-content">
-                    <div class="list-item">2022: SID Display Week, California, USA - Oral Presentation</div>
-                    <div class="list-item">2022: ICDT (International Conference on Display Technology), Fuzhou, China - Oral Presentation</div>
-                    <div class="list-item">2022: IDMC (International Display Manufacturing Conference), Taipei, China - Poster Presentation</div>
-                    <div class="list-item">2021: PGWS (Cross-Strait Postgraduate Workshop on Display Technology), Hong Kong - Oral Presentation</div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26), Singapore (CCF-A)</span>
+                            <span class="item-date">2026</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">SID Display Week, California, USA - Oral Presentation</span>
+                            <span class="item-date">2022</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">ICDT (International Conference on Display Technology), Fuzhou, China - Oral Presentation</span>
+                            <span class="item-date">2022</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">IDMC (International Display Manufacturing Conference), Taipei, China - Poster Presentation</span>
+                            <span class="item-date">2022</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">PGWS (Cross-Strait Postgraduate Workshop on Display Technology), Hong Kong - Oral Presentation</span>
+                            <span class="item-date">2021</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -698,12 +781,11 @@
                 </div>
                 <div class="basic-info">
                     <div class="name">邹国伟</div>
-                    <div class="title">博士研究生 | 中山大学计算机科学与工程学院</div>
+                    <div class="title">博士研究生 | <a href="https://cse.sysu.edu.cn/" target="_blank">中山大学计算机科学与工程学院</a></div>
                     <div class="contact-info">
                         <span>邮箱：zougw2025@gmail.com</span>
                         <span>邮箱：zougw@mail2.sysu.edu.cn</span>
-                        <span>Google Scholar：<a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ" target="_blank">scholar.google.com/citations?user=NsvS6l4AAAAJ</a></span>
-                        <span>主页：<a href="https://guowei-zou.github.io/Guowei-Zou" target="_blank">guowei-zou.github.io/Guowei-Zou</a></span>
+                        <span class="contact-full">主页：<a href="https://guowei-zou.github.io/Guowei-Zou" target="_blank">guowei-zou.github.io/Guowei-Zou</a></span>
                     </div>
                 </div>
             </div>
@@ -712,18 +794,15 @@
             <div class="section">
                 <div class="section-title">个人简介</div>
                 <div class="section-content" style="text-align: justify;">
-                    <p style="margin-bottom: 8px;">我目前是中山大学计算机科学与工程学院的博士研究生，研究方向为具身智能，专注于强化学习与机器人控制的生成模型。此前，我曾在华为技术有限公司担任硬件工程师。在中山大学攻读硕士学位期间（国家光电材料与技术重点实验室），我主要从事人工智能在3D显示和VR/AR技术中的应用研究。</p>
-                    <p style="margin-bottom: 8px;">我的研究处于人工智能与机器人技术的交叉领域，探索如何将生成模型与强化学习相结合，创造能够在物理世界中进行推理、适应和实时决策的具身智能体。</p>
+                    <p style="margin-bottom: 8px;">我目前是<a href="https://www.sysu.edu.cn/sysuen/" target="_blank">中山大学</a><a href="https://cse.sysu.edu.cn/" target="_blank">计算机科学与工程学院</a>的博士研究生，研究方向为具身智能，专注于强化学习与机器人控制的生成模型。此前，我曾在<a href="https://www.huawei.com/eu/" target="_blank">华为技术有限公司</a>担任硬件工程师。在<a href="https://www.sysu.edu.cn/sysuen/" target="_blank">中山大学</a>攻读硕士学位期间（<a href="https://oemt.sysu.edu.cn/" target="_blank">国家光电材料与技术重点实验室</a>），我主要从事人工智能在 VR/AR 场景下 3D 图像处理中的应用研究。</p>
                 </div>
             </div>
 
             <!-- Research Interests -->
             <div class="section">
                 <div class="section-title">研究方向</div>
-                <div class="section-content">
-                    <div class="list-item"><strong>具身智能 (Embodied Intelligence)</strong> - 开发能够在物理环境中感知、推理和行动的智能体</div>
-                    <div class="list-item"><strong>强化学习 (Reinforcement Learning)</strong> - 机器人与自主系统的决策与控制算法</div>
-                    <div class="list-item"><strong>机器人生成模型 (Generative Models for Robotics)</strong> - 生成模型在机器人控制与运动规划中的应用</div>
+                <div class="section-content" style="text-align: justify;">
+                    <p>我的研究处于<span class="highlight">人工智能与机器人技术</span>的交叉领域，主要关注<strong>具身智能</strong>、<strong>世界模型</strong>、<strong>强化学习</strong>和<strong>机器人生成模型</strong>。我探索如何将生成建模、强化学习与学习到的潜在动力学相结合，构建能够在物理环境中感知、规划、适应并进行实时决策的具身智能体。</p>
                 </div>
             </div>
 
@@ -733,24 +812,24 @@
                 <div class="section-content">
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">中山大学 - 计算机科学与技术 博士</span>
+                            <span class="item-title"><a href="https://www.sysu.edu.cn/sysuen/" target="_blank">中山大学</a> - 计算机科学与技术 博士</span>
                             <span class="item-date">2024年 - 至今</span>
                         </div>
-                        <div class="item-subtitle">计算机科学与工程学院 | 导师：吴贺俊 教授</div>
+                        <div class="item-subtitle"><a href="https://cse.sysu.edu.cn/" target="_blank">计算机科学与工程学院</a> | 导师：<a href="https://cse.sysu.edu.cn/teacher/WuHejun" target="_blank">吴贺俊 教授</a></div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">中山大学 - 电子科学与技术 硕士</span>
+                            <span class="item-title"><a href="https://www.sysu.edu.cn/sysuen/" target="_blank">中山大学</a> - 电子科学与技术 硕士</span>
                             <span class="item-date">2020年 - 2023年</span>
                         </div>
-                        <div class="item-subtitle">电子与信息工程学院 | 国家光电材料与技术重点实验室 | 导师：秦宗 副教授</div>
+                        <div class="item-subtitle">电子与信息工程学院 | <a href="https://oemt.sysu.edu.cn/" target="_blank">国家光电材料与技术重点实验室</a> | 导师：<a href="https://seit.sysu.edu.cn/teacher/QinZong" target="_blank">秦宗 副教授</a></div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">中国农业大学 - 电子信息工程 学士</span>
+                            <span class="item-title"><a href="https://en.cau.edu.cn/" target="_blank">中国农业大学</a> - 电子信息工程 学士</span>
                             <span class="item-date">2016年 - 2020年</span>
                         </div>
-                        <div class="item-subtitle">信息与电气工程学院</div>
+                        <div class="item-subtitle"><a href="https://ciee.cau.edu.cn/" target="_blank">信息与电气工程学院</a> | 导师：<a href="https://faculty.cau.edu.cn/wzy/list.htm" target="_blank">王忠义 教授</a></div>
                     </div>
                 </div>
             </div>
@@ -761,37 +840,37 @@
                 <div class="section-content">
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">华为技术有限公司 - 硬件工程师</span>
+                            <span class="item-title"><a href="https://www.huawei.com/eu/" target="_blank">华为技术有限公司</a> - 硬件工程师</span>
                             <span class="item-date">2023年 - 2024年</span>
                         </div>
-                        <div class="item-subtitle">消费者业务 - 显示与触控部门</div>
+                        <div class="item-subtitle">消费者BG</div>
                     </div>
                 </div>
             </div>
 
             <!-- Publications -->
             <div class="section">
-                <div class="section-title">学术论文</div>
+                <div class="section-title">代表性论文</div>
                 <div class="section-content">
                     <div class="pub-item" data-num="1">
-                        <span class="pub-title">CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making</span><br>
+                        <span class="pub-title">CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making</span><span class="item-date">2026</span><br>
                         <span class="highlight">Guowei Zou</span>, Haitao Wang, Beiwen Zhang, Boning Zhang, Hejun Wu<br>
-                        <span class="pub-venue">arXiv 预印本, 2026</span>
+                        <span class="pub-venue">arXiv 预印本, arXiv:2605.01457, 2026</span> [<a href="https://guowei-zou.github.io/coflow/" target="_blank">项目主页</a>] [<a href="https://github.com/Guowei-Zou/coflow-release" target="_blank">代码</a>] [<a href="https://arxiv.org/abs/2605.01457" target="_blank">arXiv</a>]
                     </div>
                     <div class="pub-item" data-num="2">
-                        <span class="pub-title">One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO)</span><br>
+                        <span class="pub-title">One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO)</span><span class="item-date">2026</span><br>
                         <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
-                        <span class="pub-venue">arXiv 预印本, 2026</span>
+                        <span class="pub-venue">arXiv 预印本, arXiv:2601.20701, 2026</span> [<a href="https://guowei-zou.github.io/dmpo-page/" target="_blank">项目主页</a>] [<a href="https://github.com/Guowei-Zou/dmpo-release" target="_blank">代码</a>] [<a href="https://arxiv.org/abs/2601.20701" target="_blank">arXiv</a>]
                     </div>
                     <div class="pub-item" data-num="3">
-                        <span class="pub-title">D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss</span><br>
-                        <span class="highlight">Guowei Zou</span>, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang<br>
-                        <span class="pub-venue">AAAI 2026</span> <span class="venue-accepted">(已录用)</span>
+                        <span class="pub-title">DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation</span><span class="item-date">2025</span><br>
+                        <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
+                        <span class="pub-venue">arXiv 预印本, arXiv:2510.07865, 2025</span> [<a href="https://guowei-zou.github.io/dm1/" target="_blank">项目主页</a>] [<a href="https://github.com/Guowei-Zou/dm1-release" target="_blank">代码</a>] [<a href="https://arxiv.org/abs/2510.07865" target="_blank">arXiv</a>]
                     </div>
                     <div class="pub-item" data-num="4">
-                        <span class="pub-title">DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation</span><br>
-                        <span class="highlight">Guowei Zou</span>, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li<br>
-                        <span class="pub-venue">arXiv Preprint, 2025</span>
+                        <span class="pub-title">D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss</span><span class="item-date">2025</span><br>
+                        <span class="highlight">Guowei Zou</span>, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang<br>
+                        <span class="pub-venue">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)</span>; arXiv:2508.02644 [<a href="https://guowei-zou.github.io/d2ppo/" target="_blank">项目主页</a>] [<a href="https://github.com/Guowei-Zou/d2ppo-release" target="_blank">代码</a>] [<a href="https://arxiv.org/abs/2508.02644" target="_blank">arXiv</a>]
                     </div>
                 </div>
             </div>
@@ -800,9 +879,30 @@
             <div class="section">
                 <div class="section-title">专利成果</div>
                 <div class="section-content">
-                    <div class="list-item">秦宗, <span class="highlight">邹国伟</span>, 等. 自适应刷新率场序彩色显示装置. ZL2022103803143 <span class="venue-accepted">(已授权, 2025)</span></div>
-                    <div class="list-item">秦宗, <span class="highlight">邹国伟</span>, 等. 基于深度学习的场序显示控制方法. ZL2021107930745 <span class="venue-accepted">(已授权, 2023)</span></div>
-                    <div class="list-item">秦宗, 杨文超, 程云帆, <span class="highlight">邹国伟</span>, 等. 高分辨率光场显示方法. ZL2021108736155 <span class="venue-accepted">(已授权, 2022)</span></div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">秦宗, 赵子晖, <span class="highlight">邹国伟</span>, 等. 基于场序彩色液晶显示的可见光通信方法、装置及系统. ZL2022114587970 (已授权)</span>
+                            <span class="item-date">2026</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">秦宗, <span class="highlight">邹国伟</span>, 等. 自适应刷新率场序彩色显示装置. ZL2022103803143 (已授权)</span>
+                            <span class="item-date">2025</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">秦宗, <span class="highlight">邹国伟</span>, 等. 基于深度学习的场序显示控制方法. ZL2021107930745 (已授权)</span>
+                            <span class="item-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">秦宗, 杨文超, 程云帆, <span class="highlight">邹国伟</span>, 等. 高分辨率光场显示方法. ZL2021108736155 (已授权)</span>
+                            <span class="item-date">2022</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -812,43 +912,38 @@
                 <div class="section-content">
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">华星光电技术有限公司 (CSOT)</span>
+                            <span class="item-title"><a href="https://en.tclcsot.com/" target="_blank">华星光电技术有限公司 (CSOT)</a></span>
                             <span class="item-date">2022年 - 2023年</span>
                         </div>
-                        <div class="item-subtitle">场序彩色显示项目</div>
-                        <div class="item-desc">3D显示技术的场序彩色显示系统硬件实现。</div>
+                        <div class="item-subtitle">AI 图像增强：基于计算机视觉的图像质量建模与优化。</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">华为技术有限公司</span>
+                            <span class="item-title"><a href="https://www.huawei.com/eu/" target="_blank">华为技术有限公司</a></span>
                             <span class="item-date">2021年 - 2023年</span>
                         </div>
-                        <div class="item-subtitle">虚拟现实AR-HUD项目</div>
-                        <div class="item-desc">AR抬头显示系统中图像生成单元的AI图像质量增强。</div>
+                        <div class="item-subtitle">VR/AR 图像增强：面向 AR-HUD 系统的 AI 图像恢复与视觉质量优化。</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">vivo移动通信有限公司</span>
+                            <span class="item-title"><a href="https://www.vivo.com/en/" target="_blank">vivo移动通信有限公司</a></span>
                             <span class="item-date">2021年 - 2023年</span>
                         </div>
-                        <div class="item-subtitle">屏下摄像头/传感器项目</div>
-                        <div class="item-desc">全面屏手机的屏下传感器建模及基于深度学习的信号增强。</div>
+                        <div class="item-subtitle">移动视觉感知：基于深度学习的传感器建模与移动端成像信号增强。</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Tridium Inc. (霍尼韦尔)</span>
+                            <span class="item-title"><a href="https://www.tridium.com/us/en" target="_blank">Tridium Inc.</a> (<a href="https://www.honeywell.com/us/en" target="_blank">霍尼韦尔</a>)</span>
                             <span class="item-date">2019年 - 2020年</span>
                         </div>
-                        <div class="item-subtitle">智慧楼宇物联网项目</div>
-                        <div class="item-desc">参与基于物联网的智慧楼宇管理系统开发，专注于控制与自动化；获得物联网工程师认证 (APAC)。</div>
+                        <div class="item-subtitle">AIoT 智慧楼宇：传感数据分析与数据驱动的楼宇自动化控制。</div>
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="item-title">Wlkata Robotics</span>
+                            <span class="item-title"><a href="https://cn.wlkata.com/en_index.php?langid=2" target="_blank">Wlkata Robotics</a></span>
                             <span class="item-date">2019年 - 2020年</span>
                         </div>
-                        <div class="item-subtitle">机械臂控制算法</div>
-                        <div class="item-desc">机械臂系统的高级控制算法开发，专注于精密控制与轨迹规划。</div>
+                        <div class="item-subtitle">机械臂控制：面向机器人操作任务的运动规划与控制算法。</div>
                     </div>
                 </div>
             </div>
@@ -857,9 +952,42 @@
             <div class="section">
                 <div class="section-title">荣誉奖项</div>
                 <div class="section-content">
-                    <div class="list-item">2021年 PGWS 学术会议最佳论文奖 (香港)</div>
-                    <div class="list-item">2020年 北京市优秀本科毕业论文 (0.9%, 27/3000)</div>
-                    <div class="list-item">2020年 中国农业大学优秀本科毕业论文 (3.3%, 100/3000)</div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">ICDT 国际显示技术会议杰出学生论文奖 (合肥)</span>
+                            <span class="item-date">2024年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">ICDT 国际显示技术会议杰出学生论文奖 (南京)</span>
+                            <span class="item-date">2023年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">ICDT 国际显示技术会议杰出学生论文奖 (福州)</span>
+                            <span class="item-date">2022年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">PGWS 两岸显示技术研究生工作坊最佳论文奖 (中国香港)</span>
+                            <span class="item-date">2021年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">北京市优秀本科毕业论文 (0.9%, 27/3000)</span>
+                            <span class="item-date">2020年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title"><a href="https://en.cau.edu.cn/" target="_blank">中国农业大学</a>优秀本科毕业论文 (3.3%, 100/3000)</span>
+                            <span class="item-date">2020年</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -867,10 +995,36 @@
             <div class="section">
                 <div class="section-title">学术会议</div>
                 <div class="section-content">
-                    <div class="list-item">2022年 SID Display Week，美国加利福尼亚 - 口头报告</div>
-                    <div class="list-item">2022年 ICDT 国际显示技术会议，中国福州 - 口头报告</div>
-                    <div class="list-item">2022年 IDMC 国际显示制造会议，中国台北 - 海报展示</div>
-                    <div class="list-item">2021年 PGWS 两岸显示技术研究生工作坊，中国香港 - 口头报告</div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)，新加坡 (CCF-A)</span>
+                            <span class="item-date">2026年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">SID Display Week，美国加利福尼亚 - 口头报告</span>
+                            <span class="item-date">2022年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">ICDT 国际显示技术会议，中国福州 - 口头报告</span>
+                            <span class="item-date">2022年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">IDMC 国际显示制造会议，中国台北 - 海报展示</span>
+                            <span class="item-date">2022年</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">PGWS 两岸显示技术研究生工作坊，中国香港 - 口头报告</span>
+                            <span class="item-date">2021年</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
