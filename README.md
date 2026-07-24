@@ -39,7 +39,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
       <img src="https://raw.githubusercontent.com/Guowei-Zou/dmpo-page/master/images/abstract_image_page.png" alt="DMPO overview" width="260">
     </td>
     <td valign="top">
-      <strong>[January 28, 2026] One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO).</strong><br>
+      <strong>[January 28, 2026] One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO) (The 34th ACM International Conference on Multimedia (ACM MM 2026)).</strong><br>
       Guowei Zou, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li.<br>
       <a href="https://guowei-zou.github.io/dmpo-page/">Project Page</a> |
       <a href="https://github.com/Guowei-Zou/dmpo-release">Code</a> |
