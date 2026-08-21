@@ -27,7 +27,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
       <img src="https://beiwenzhang.github.io/Co-pi-tree/assets/images/framework.png" alt="Co-pi-tree framework" width="260">
     </td>
     <td valign="top">
-      <strong>[June 7, 2026] Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration (The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)).</strong><br>
+      <strong>[June 7, 2026] Co-π-tree: Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration (The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)).</strong><br>
       Beiwen Zhang, Yongheng Liang, Guowei Zou, Haitao Wang, Hejun Wu.<br>
       <a href="https://beiwenzhang.github.io/Co-pi-tree/">Project Page</a> |
       <a href="https://arxiv.org/pdf/2606.08596">Paper</a> |
