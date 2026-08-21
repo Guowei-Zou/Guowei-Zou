@@ -1,6 +1,7 @@
-# Guowei Zou
+# Guowei Zou (邹国伟)
 
-📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)
+📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)<br>
+📧 [zougw@mail2.sysu.edu.cn](mailto:zougw@mail2.sysu.edu.cn)
 
 [![Homepage](https://img.shields.io/badge/Homepage-2E7D32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
@@ -9,22 +10,19 @@
 [![CV](https://img.shields.io/badge/CV-C0392B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/resume.html)
 
 ## About Me
-I am currently a **PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering, specializing in **Embodied Intelligence** with a focus on **Reinforcement Learning** and **Generative Models for Robotics Control**.
+I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering. Currently, I am a **visiting student** at the **School of Computing, National University of Singapore**. Previously, I worked as a Hardware Engineer at **Huawei Technologies Co., Ltd.** Before that, I received my Master's degree from **Sun Yat-Sen University** (State Key Laboratory of Optoelectronic Materials and Technologies).
 
 ## Research Interests
-My research lies at the intersection of **artificial intelligence and robotics**, where I explore how *generative modeling* and *reinforcement learning* can be unified to create **embodied agents** capable of real-time decision-making in the physical world. I am currently focused on **World Models** and *RL-based policy optimization within world models*, enabling agents to plan and improve behaviors through imagined experience in learned latent spaces.
+My research lies at the intersection of **artificial intelligence and robotics**, where I explore how generative modeling and reinforcement learning can be unified to create **embodied agents** capable of real-time decision-making in the physical world. Currently, I am particularly focused on **World Models** and RL-based policy optimization within world models.
 
-- **Embodied Intelligence**: agents that perceive, reason, and act in physical environments
-- **World Models**: learning predictive latent models for planning and imagined experience
-- **Reinforcement Learning**: policy optimization for decision-making and robotic control
-- **Generative Models for Robotics**: diffusion and flow based generation for motion planning and control
+**Research Areas:** Artificial Intelligence, Embodied Intelligence, World Models, Vision-Language-Action (VLA), and Multi-Agent Systems.
 
 ## Papers
 
 <table>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://beiwenzhang.github.io/Co-pi-tree/assets/images/framework.png" alt="Co-pi-tree framework" width="260">
+      <img src="https://beiwenzhang.github.io/Co-pi-tree/assets/images/motivation.png" alt="Co-π-tree Figure 1" width="260">
     </td>
     <td valign="top">
       <strong>[June 7, 2026] Co-π-tree: Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration (The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)).</strong><br>
@@ -85,7 +83,8 @@ My research lies at the intersection of **artificial intelligence and robotics**
 </table>
 
 ## Education & Experience
-- **PhD in Computer Science and Technology** | Sun Yat-Sen University | 2024 - Present
-- **Hardware Engineer** | Huawei Technologies Co., Ltd., Consumer BG - Display & Touch Division | 2023 - 2024
-- **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
-- **Bachelor in Electronic Information Engineering** | China Agricultural University | 2016 - 2020
+- <img src="https://www.comp.nus.edu.sg/wp-content/uploads/2023/09/cropped-favicon-192x192.png" width="22" height="22" align="center" alt="NUS"> **Visiting Student** | National University of Singapore | 2026 - Present
+- <img src="https://www.sysu.edu.cn/sysuen/images/favicon.png" width="22" height="22" align="center" alt="SYSU"> **PhD in Computer Science and Technology** | Sun Yat-Sen University | 2024 - Present
+- <img src="https://www.huawei.com/-/media/htemplate-home/1.0.1.20251205144752/components/assets/img/favicon-logo.svg" width="22" height="22" align="center" alt="Huawei"> **Hardware Engineer** | Huawei Technologies Co., Ltd., Consumer BG - Display & Touch Division | 2023 - 2024
+- <img src="https://www.sysu.edu.cn/sysuen/images/favicon.png" width="22" height="22" align="center" alt="SYSU"> **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
+- <img src="https://www.google.com/s2/favicons?domain=www.cau.edu.cn&amp;sz=128" width="22" height="22" align="center" alt="CAU"> **Bachelor in Electronic Information Engineering** | China Agricultural University | 2016 - 2020

@@ -200,6 +200,12 @@ a:visited {
     margin-bottom: 0.2rem;
 }
 
+.name-zh {
+    font-family: "Noto Serif SC", "Songti SC", SimSun, serif;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
 .profile-info h2 {
     font-size: 1rem;
     font-weight: normal;
@@ -305,6 +311,32 @@ a:visited {
     font-size: 1rem;
 }
 
+.inline-logo {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.28rem;
+    object-fit: contain;
+    vertical-align: -0.14em;
+}
+
+.education-logo {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.55rem;
+    object-fit: contain;
+    vertical-align: -0.4em;
+}
+
+.research-list-inline p > img.internship-logo {
+    display: inline-block;
+    width: 1.5em !important;
+    height: 1.5em !important;
+    max-width: 1.5em !important;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 0.55em;
+}
+
 .bio p a {
     text-decoration: underline;
 }
@@ -329,6 +361,44 @@ p strong[style] {
     height: auto;
     object-fit: cover;
     border: 1px solid #ddd;
+    cursor: zoom-in;
+}
+
+.publication-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.82);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    cursor: zoom-out;
+}
+
+.publication-lightbox.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.publication-lightbox img {
+    display: block;
+    max-width: calc(100vw - 3rem);
+    max-height: calc(100vh - 3rem);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    cursor: zoom-out;
+}
+
+body.publication-lightbox-open {
+    overflow: hidden;
 }
 
 .publications-link {

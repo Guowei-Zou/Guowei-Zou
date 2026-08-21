@@ -437,5 +437,55 @@ window.addTestCountry = (countryName, countryCode) => {
     }
 };
 
+// Click-to-expand preview for publication thumbnails
+const publicationThumbnails = document.querySelectorAll('.publication-thumb');
+
+if (publicationThumbnails.length > 0) {
+    const lightbox = document.createElement('div');
+    lightbox.className = 'publication-lightbox';
+    lightbox.setAttribute('role', 'dialog');
+    lightbox.setAttribute('aria-modal', 'true');
+    lightbox.setAttribute('aria-label', 'Expanded publication image');
+
+    const expandedImage = document.createElement('img');
+    expandedImage.alt = '';
+    lightbox.appendChild(expandedImage);
+    document.body.appendChild(lightbox);
+
+    const openPublicationLightbox = (thumbnail) => {
+        expandedImage.src = thumbnail.currentSrc || thumbnail.src;
+        expandedImage.alt = thumbnail.alt;
+        lightbox.classList.add('is-open');
+        document.body.classList.add('publication-lightbox-open');
+    };
+
+    const closePublicationLightbox = () => {
+        lightbox.classList.remove('is-open');
+        document.body.classList.remove('publication-lightbox-open');
+        expandedImage.removeAttribute('src');
+    };
+
+    publicationThumbnails.forEach((thumbnail) => {
+        thumbnail.setAttribute('tabindex', '0');
+        thumbnail.setAttribute('role', 'button');
+        thumbnail.setAttribute('aria-label', `Enlarge ${thumbnail.alt || 'publication image'}`);
+
+        thumbnail.addEventListener('click', () => openPublicationLightbox(thumbnail));
+        thumbnail.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                openPublicationLightbox(thumbnail);
+            }
+        });
+    });
+
+    lightbox.addEventListener('click', closePublicationLightbox);
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && lightbox.classList.contains('is-open')) {
+            closePublicationLightbox();
+        }
+    });
+}
+
 console.log('Academic homepage with visitor tracking loaded successfully');
 console.log('Debug functions available: debugStats(), resetStats(), addTestCountry(name, code)');
