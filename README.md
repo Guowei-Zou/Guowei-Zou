@@ -24,6 +24,18 @@ My research lies at the intersection of **artificial intelligence and robotics**
 <table>
   <tr>
     <td width="280" valign="middle" align="center">
+      <img src="https://beiwenzhang.github.io/Co-pi-tree/assets/images/framework.png" alt="Co-pi-tree framework" width="260">
+    </td>
+    <td valign="top">
+      <strong>[June 7, 2026] Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration (The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)).</strong><br>
+      Beiwen Zhang, Yongheng Liang, Guowei Zou, Haitao Wang, Hejun Wu.<br>
+      <a href="https://beiwenzhang.github.io/Co-pi-tree/">Project Page</a> |
+      <a href="https://arxiv.org/pdf/2606.08596">Paper</a> |
+      <a href="https://beiwenzhang.github.io/Co-pi-tree/video.html">Videos</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="280" valign="middle" align="center">
       <img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/coflow_overview.png" alt="CoFlow overview" width="260">
     </td>
     <td valign="top">
@@ -77,4 +89,3 @@ My research lies at the intersection of **artificial intelligence and robotics**
 - **Hardware Engineer** | Huawei Technologies Co., Ltd., Consumer BG - Display & Touch Division | 2023 - 2024
 - **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
 - **Bachelor in Electronic Information Engineering** | China Agricultural University | 2016 - 2020
-
