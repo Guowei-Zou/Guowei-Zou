@@ -15,7 +15,7 @@ I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Compu
 ## Research Interests
 My research lies at the intersection of **artificial intelligence and robotics**, where I explore how generative modeling and reinforcement learning can be unified to create **embodied agents** capable of real-time decision-making in the physical world. Currently, I am particularly focused on **World Models** and RL-based policy optimization within world models.
 
-**Research Areas:** Artificial Intelligence, Embodied AI, World Models, Vision-Language-Action (VLA), and Multi-Agent Systems.
+**Research Areas:** Artificial Intelligence, Embodied AI, World Models, Vision-Language-Action (VLA) Model, and Multi-Agent Systems.
 
 ## Papers
 
