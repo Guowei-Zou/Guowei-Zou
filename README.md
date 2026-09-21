@@ -4,11 +4,11 @@
 📧 [zougw@mail2.sysu.edu.cn](mailto:zougw@mail2.sysu.edu.cn)
 
 <p>
-  <a href="https://guowei-zou.github.io/Guowei-Zou/"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/homepage-gray-v2.svg" alt="Homepage" width="158" height="56"></a>
-  <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ&amp;hl=en&amp;oi=ao"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/scholar-gray-v2.svg" alt="Google Scholar" width="158" height="56"></a>
-  <a href="https://x.com/WilliamChou2025"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/x-gray-v2.svg" alt="X" width="158" height="56"></a>
-  <a href="https://www.linkedin.com/in/guowei-zou-2a0b1739a"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/linkedin-gray-v2.svg" alt="LinkedIn" width="158" height="56"></a>
-  <a href="https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/cv-gray-v2.svg" alt="CV" width="158" height="56"></a>
+  <a href="https://guowei-zou.github.io/Guowei-Zou/"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/homepage-gray-v3.svg" alt="Homepage" width="150"></a>
+  <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ&amp;hl=en&amp;oi=ao"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/scholar-gray-v3.svg" alt="Google Scholar" width="150"></a>
+  <a href="https://x.com/WilliamChou2025"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/x-gray-v3.svg" alt="X" width="150"></a>
+  <a href="https://www.linkedin.com/in/guowei-zou-2a0b1739a"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/linkedin-gray-v3.svg" alt="LinkedIn" width="150"></a>
+  <a href="https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/cv-gray-v3.svg" alt="CV" width="150"></a>
 </p>
 
 ## About Me
