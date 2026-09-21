@@ -3,11 +3,11 @@
 📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)<br>
 📧 [zougw@mail2.sysu.edu.cn](mailto:zougw@mail2.sysu.edu.cn)
 
-[![Homepage](https://img.shields.io/badge/Homepage-2E7D32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamChou2025)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-004182?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
-[![CV](https://img.shields.io/badge/CV-C0392B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf)
+[![Homepage](https://img.shields.io/badge/Homepage-374151?style=flat-square&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-374151?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
+[![X](https://img.shields.io/badge/X-374151?style=flat-square)](https://x.com/WilliamChou2025)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-374151?style=flat-square)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
+[![CV](https://img.shields.io/badge/CV-374151?style=flat-square&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf)
 
 ## About Me
 I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering. Currently, I am a **visiting student** at the **School of Computing, National University of Singapore**. Previously, I worked as a Hardware Engineer at **Huawei Technologies Co., Ltd.** Before that, I received my Master's degree from **Sun Yat-Sen University** (State Key Laboratory of Optoelectronic Materials and Technologies).
