@@ -4,11 +4,11 @@
 📧 [zougw@mail2.sysu.edu.cn](mailto:zougw@mail2.sysu.edu.cn)
 
 <p>
-  <a href="https://guowei-zou.github.io/Guowei-Zou/"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/homepage.svg" alt="Homepage" width="158" height="56"></a>
-  <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ&amp;hl=en&amp;oi=ao"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/scholar.svg" alt="Google Scholar" width="158" height="56"></a>
-  <a href="https://x.com/WilliamChou2025"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/x.svg" alt="X" width="158" height="56"></a>
-  <a href="https://www.linkedin.com/in/guowei-zou-2a0b1739a"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/linkedin.svg" alt="LinkedIn" width="158" height="56"></a>
-  <a href="https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/cv.svg" alt="CV" width="158" height="56"></a>
+  <a href="https://guowei-zou.github.io/Guowei-Zou/"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/homepage.svg?v=homepage-style" alt="Homepage" width="158" height="56"></a>
+  <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ&amp;hl=en&amp;oi=ao"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/scholar.svg?v=homepage-style" alt="Google Scholar" width="158" height="56"></a>
+  <a href="https://x.com/WilliamChou2025"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/x.svg?v=homepage-style" alt="X" width="158" height="56"></a>
+  <a href="https://www.linkedin.com/in/guowei-zou-2a0b1739a"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/linkedin.svg?v=homepage-style" alt="LinkedIn" width="158" height="56"></a>
+  <a href="https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/cv.svg?v=homepage-style" alt="CV" width="158" height="56"></a>
 </p>
 
 ## About Me
@@ -44,7 +44,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
   </tr>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/copitree_motivation_cropped.svg" alt="Co-pi-tree" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/copitree_motivation_cropped.svg?v=homepage-style" alt="Co-pi-tree" width="260">
     </td>
     <td valign="top">
       [June 7, 2026] Co-π-tree: Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration <strong>(The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026))</strong>.<br>
