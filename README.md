@@ -3,11 +3,13 @@
 📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)<br>
 📧 [zougw@mail2.sysu.edu.cn](mailto:zougw@mail2.sysu.edu.cn)
 
-[![Homepage](https://img.shields.io/badge/Homepage-374151?style=flat-square&logo=googlechrome&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-374151?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=NsvS6l4AAAAJ&hl=en&oi=ao)
-[![X](https://img.shields.io/badge/X-374151?style=flat-square)](https://x.com/WilliamChou2025)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-374151?style=flat-square)](https://www.linkedin.com/in/guowei-zou-2a0b1739a)
-[![CV](https://img.shields.io/badge/CV-374151?style=flat-square&logo=readthedocs&logoColor=white)](https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf)
+<p>
+  <a href="https://guowei-zou.github.io/Guowei-Zou/"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/homepage.svg" alt="Homepage" width="158" height="56"></a>
+  <a href="https://scholar.google.com/citations?user=NsvS6l4AAAAJ&amp;hl=en&amp;oi=ao"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/scholar.svg" alt="Google Scholar" width="158" height="56"></a>
+  <a href="https://x.com/WilliamChou2025"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/x.svg" alt="X" width="158" height="56"></a>
+  <a href="https://www.linkedin.com/in/guowei-zou-2a0b1739a"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/linkedin.svg" alt="LinkedIn" width="158" height="56"></a>
+  <a href="https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/cv.svg" alt="CV" width="158" height="56"></a>
+</p>
 
 ## About Me
 I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering. Currently, I am a **visiting student** at the **School of Computing, National University of Singapore**. Previously, I worked as a Hardware Engineer at **Huawei Technologies Co., Ltd.** Before that, I received my Master's degree from **Sun Yat-Sen University** (State Key Laboratory of Optoelectronic Materials and Technologies).
