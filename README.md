@@ -22,62 +22,82 @@ My research lies at the intersection of **artificial intelligence and robotics**
 <table>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://beiwenzhang.github.io/Co-pi-tree/assets/images/motivation.png" alt="Co-π-tree Figure 1" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/ma-wam_motivation.png" alt="MA-WAM motivation" width="260">
     </td>
     <td valign="top">
-      <strong>[June 7, 2026] Co-π-tree: Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration (The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)).</strong><br>
-      Beiwen Zhang, Yongheng Liang, Guowei Zou, Haitao Wang, Hejun Wu.<br>
-      <a href="https://beiwenzhang.github.io/Co-pi-tree/">Project Page</a> |
-      <a href="https://arxiv.org/pdf/2606.08596">Paper</a> |
-      <a href="https://beiwenzhang.github.io/Co-pi-tree/video.html">Videos</a>
+      MA-WAM: Multi-Agent World-Action Model for Test-Time Planning <strong>(Under review)</strong>.<br>
+       <strong>Guowei Zou</strong>, H. Wang, G. Wang, B. Zhang, Z. Chen, G. Wang, H. Wu.<br>
+      [<a href="https://guowei-zou.github.io/ma-wam/">Project Page</a> (coming soon)] [<a href="https://github.com/Guowei-Zou/ma-wam">Code</a> (coming soon)]
     </td>
   </tr>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/coflow_overview.png" alt="CoFlow overview" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/g2maf_motivation.png" alt="G2MAF motivation" width="260">
     </td>
     <td valign="top">
-      <strong>[May 2, 2026] CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making.</strong><br>
-      Guowei Zou, Haitao Wang, Beiwen Zhang, Boning Zhang, Hejun Wu.<br>
-      <a href="https://guowei-zou.github.io/coflow/">Project Page</a> |
-      <a href="https://github.com/Guowei-Zou/coflow-release">Code</a> |
-      <a href="https://arxiv.org/abs/2605.01457">arXiv</a>
+      G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies <strong>(Under review)</strong>.<br>
+       <strong>Guowei Zou</strong>, H. Wang, G. Wang, Z. Chen, B. Zhang, G. Wang, H. Wu.<br>
+      [<a href="https://guowei-zou.github.io/g2maf/">Project Page</a> (coming soon)] [<a href="https://github.com/Guowei-Zou/g2maf">Code</a> (coming soon)]
     </td>
   </tr>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://raw.githubusercontent.com/Guowei-Zou/dmpo-page/master/images/abstract_image_page.png" alt="DMPO overview" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/copitree_motivation_cropped.svg" alt="Co-pi-tree" width="260">
     </td>
     <td valign="top">
-      <strong>[January 28, 2026] One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO) (The 34th ACM International Conference on Multimedia (ACM MM 2026)).</strong><br>
-      Guowei Zou, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li.<br>
-      <a href="https://guowei-zou.github.io/dmpo-page/">Project Page</a> |
-      <a href="https://github.com/Guowei-Zou/dmpo-release">Code</a> |
-      <a href="https://arxiv.org/abs/2601.20701">arXiv</a>
+      [June 7, 2026] Co-π-tree: Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration <strong>(The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026))</strong>.<br>
+       B. Zhang, Y. Liang, <strong>Guowei Zou</strong>, H. Wang, H. Wu.<br>
+      [<a href="https://beiwenzhang.github.io/Co-pi-tree/">Project Page</a>] [<a href="https://arxiv.org/pdf/2606.08596">Paper</a>] [<a href="https://beiwenzhang.github.io/Co-pi-tree/video.html">Videos</a>]
     </td>
   </tr>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/DM1.png" alt="DM1 overview" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/coflow_fig1_current.png" alt="CoFlow" width="260">
     </td>
     <td valign="top">
-      <strong>[October 9, 2025] DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation.</strong><br>
-      Guowei Zou, Haitao Wang, Hejun Wu, Yukun Qian, Yuhang Wang, Weibing Li.<br>
-      <a href="https://guowei-zou.github.io/dm1/">Project Page</a> |
-      <a href="https://github.com/Guowei-Zou/dm1-release">Code</a> |
-      <a href="https://arxiv.org/abs/2510.07865">arXiv</a>
+      [May 2, 2026] CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making.<br>
+      <strong>Guowei Zou</strong>, H. Wang, B. Zhang, B. Zhang, H. Wu.<br>
+      [<a href="https://guowei-zou.github.io/coflow/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/coflow-release">Code</a>] [<a href="https://arxiv.org/abs/2605.01457">arXiv</a>]
     </td>
   </tr>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://raw.githubusercontent.com/Guowei-Zou/d2ppo/master/images/comprehensive_four_subplots.png" alt="D2PPO overview" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/20260128_DMPO_oral.png" alt="DMPO" width="260">
     </td>
     <td valign="top">
-      <strong>[August 4, 2025] D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss (Accepted to AAAI 2026).</strong><br>
-      Guowei Zou, Weibing Li, Hejun Wu, Yukun Qian, Yuhang Wang, Haitao Wang.<br>
-      <a href="https://guowei-zou.github.io/d2ppo/">Project Page</a> |
-      <a href="https://github.com/Guowei-Zou/d2ppo-release">Code</a> |
-      <a href="https://arxiv.org/abs/2508.02644">arXiv</a>
+      [January 28, 2026] One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO) <strong>(The 34th ACM International Conference on Multimedia (ACM MM 2026))</strong>.<br>
+       <strong>Guowei Zou</strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
+      [<a href="https://guowei-zou.github.io/dmpo-page/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/dmpo-release">Code</a>] [<a href="https://arxiv.org/abs/2601.20701">arXiv</a>]
+    </td>
+  </tr>
+  <tr>
+    <td width="280" valign="middle" align="center">
+      <img src="https://arxiv.org/html/2510.25340v2/Overview_new.png" alt="PACT framework overview" width="260">
+    </td>
+    <td valign="top">
+      [October 29, 2025] PACT: Phenotype-Aware Contrastive Team Representation for Multi-Phenotype Grouped Ad Hoc Teamwork.<br>
+      B. Zhang, Y. Liang, <strong>Guowei Zou</strong>, H. Wang, C. Liu, H. Wu.<br>
+      [<a href="https://arxiv.org/abs/2510.25340v2">arXiv</a>]
+    </td>
+  </tr>
+  <tr>
+    <td width="280" valign="middle" align="center">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/DM1.png" alt="DM1" width="260">
+    </td>
+    <td valign="top">
+      [October 9, 2025] DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation.<br>
+      <strong>Guowei Zou</strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
+      [<a href="https://guowei-zou.github.io/dm1/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/dm1-release">Code</a>] [<a href="https://arxiv.org/abs/2510.07865">arXiv</a>]
+    </td>
+  </tr>
+  <tr>
+    <td width="280" valign="middle" align="center">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/D2PPO.png" alt="D2PPO" width="260">
+    </td>
+    <td valign="top">
+      [August 4, 2025] D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss <strong>(AAAI Conference on Artificial Intelligence (AAAI) 2026)</strong>.<br>
+       <strong>Guowei Zou</strong>, W. Li, H. Wu, Y. Qian, Y. Wang, H. Wang.<br>
+      [<a href="https://guowei-zou.github.io/d2ppo/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/d2ppo-release">Code</a>] [<a href="https://arxiv.org/abs/2508.02644">arXiv</a>]
     </td>
   </tr>
 </table>
