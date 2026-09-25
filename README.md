@@ -29,7 +29,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     <td valign="top">
       [July 28, 2026] MA-WAM: Multi-Agent World-Action Model for Test-Time Planning <strong>(Under review)</strong>.<br>
        <strong>Guowei Zou</strong>, H. Wang, G. Wang, B. Zhang, Z. Chen, G. Wang, H. Wu.<br>
-      [<a href="https://guowei-zou.github.io/ma-wam/">Project Page</a> (coming soon)] [<a href="https://github.com/Guowei-Zou/ma-wam">Code</a> (coming soon)]
+      [<a href="https://ma-wam.github.io/">Project Page</a>] [<a href="https://github.com/ma-wam/MA-WAM">Code</a> (coming soon)]
     </td>
   </tr>
   <tr>
@@ -39,7 +39,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     <td valign="top">
       [July 28, 2026] G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies <strong>(Under review)</strong>.<br>
        <strong>Guowei Zou</strong>, H. Wang, G. Wang, Z. Chen, B. Zhang, G. Wang, H. Wu.<br>
-      [<a href="https://guowei-zou.github.io/g2maf/">Project Page</a> (coming soon)] [<a href="https://github.com/Guowei-Zou/g2maf">Code</a> (coming soon)]
+      [<a href="https://g2maf.github.io/">Project Page</a>] [<a href="https://github.com/g2maf/G2MAF">Code</a> (coming soon)]
     </td>
   </tr>
   <tr>
