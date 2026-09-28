@@ -11,33 +11,6 @@
   <a href="https://guowei-zou.github.io/Guowei-Zou/assets/guowei-zou-cv.pdf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/profile-buttons/cv-centered.svg" alt="CV" width="90"></a>
 </p>
 
-<!-- RESEARCH_PROJECTS_START -->
-## Research Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ogpo-project"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/project-cards/ogpo.svg" alt="OGPO research project" width="100%"></a><br>
-      <a href="https://github.com/ogpo-project">Organization</a> &nbsp;·&nbsp; <a href="https://ogpo-project.github.io/">Project page</a>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ma-fppo"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/project-cards/ma-fppo.svg" alt="MA-FPPO research project" width="100%"></a><br>
-      <a href="https://github.com/ma-fppo">Organization</a> &nbsp;·&nbsp; <a href="https://ma-fppo.github.io/">Project page</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/g2maf"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/project-cards/g2maf.svg" alt="G2MAF research project" width="100%"></a><br>
-      <a href="https://github.com/g2maf">Organization</a> &nbsp;·&nbsp; <a href="https://g2maf.github.io/">Project page</a>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ma-wam"><img src="https://raw.githubusercontent.com/Guowei-Zou/Guowei-Zou/master/assets/project-cards/ma-wam.svg" alt="MA-WAM research project" width="100%"></a><br>
-      <a href="https://github.com/ma-wam">Organization</a> &nbsp;·&nbsp; <a href="https://ma-wam.github.io/">Project page</a>
-    </td>
-  </tr>
-</table>
-<!-- RESEARCH_PROJECTS_END -->
-
 ## About Me
 I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering. Currently, I am a **visiting student** at the **School of Computing, National University of Singapore**. Previously, I worked as a Hardware Engineer at **Huawei Technologies Co., Ltd.** Before that, I received my Master's degree from **Sun Yat-Sen University** (State Key Laboratory of Optoelectronic Materials and Technologies).
 
