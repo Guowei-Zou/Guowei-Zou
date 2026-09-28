@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="218" viewBox="0 0 560 218" role="img" aria-labelledby="title desc">
+<title id="title">G2MAF</title><desc id="desc">Test-Time Gradient Guidance for Multi-Agent Flow Policies</desc>
+<rect x="1" y="1" width="558" height="216" rx="16" fill="#EDF7FC" stroke="#236B87" stroke-opacity=".18"/>
+<rect x="25" y="26" width="4" height="14" rx="2" fill="#236B87"/>
+<text x="39" y="38" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.1" fill="#236B87">GUIDED GENERATIVE POLICIES</text>
+<text x="26" y="91" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" fill="#236B87">G2MAF</text>
+<path d="M492 63h24v24m0-24-29 29" stroke="#236B87" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="26" y="129" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#253246">Test-Time Gradient Guidance</text>
+<text x="26" y="152" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#253246">for Multi-Agent Flow Policies</text>
+<line x1="26" y1="173" x2="534" y2="173" stroke="#236B87" stroke-opacity=".16"/>
+<text x="26" y="196" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#536171">Guide cooperative actions at inference time.</text>
+</svg>
