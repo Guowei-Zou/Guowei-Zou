@@ -241,7 +241,7 @@ a:visited {
 /* Social / link icon buttons */
 .social-links {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 0.55rem;
     margin-top: 1rem;
 }
@@ -280,6 +280,15 @@ a:visited {
 .social-links .social-btn i.fab {
     display: inline-block;
     font-size: 1.2rem;
+}
+
+.social-links .social-btn .social-brand-icon {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 3px;
 }
 
 /* Brand colors at rest */
