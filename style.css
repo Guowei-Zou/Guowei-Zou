@@ -663,3 +663,9 @@ i.fas, i.fab {
     vertical-align: -0.22em;
     border-radius: 0;
 }
+
+/* Research framework shortcut beneath the profile email addresses. */
+.contact-email .profile-project-link {
+    justify-content: center;
+    margin-top: 0.75rem;
+}
