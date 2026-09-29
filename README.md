@@ -24,6 +24,16 @@ My research lies at the intersection of **artificial intelligence and robotics**
 <table>
   <tr>
     <td width="280" valign="middle" align="center">
+      <img src="https://ma-fppo.github.io/assets/motivation_three_stage.webp" alt="MA-FPPO motivation" width="260">
+    </td>
+    <td valign="top">
+      [September 26, 2026] MA-FPPO: Multi-Agent Flow-Pretrained Policy Optimization.<br>
+      <strong>Guowei Zou</strong>, H. Chen, H. Wang, B. Zhang, N. Yan, H. Wu.<br>
+      [<a href="https://ma-fppo.github.io/">Project Page</a>] [<a href="https://arxiv.org/abs/2609.32594">arXiv</a>] [<a href="https://github.com/ma-fppo/MA-FPPO">Code</a>]
+    </td>
+  </tr>
+  <tr>
+    <td width="280" valign="middle" align="center">
       <img src="https://guowei-zou.github.io/Guowei-Zou/assets/ma-wam_motivation.png" alt="MA-WAM motivation" width="260">
     </td>
     <td valign="top">
