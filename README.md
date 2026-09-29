@@ -1,4 +1,4 @@
-# Guowei Zou (邹国伟)
+# <a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a> (<a href="https://guowei-zou.github.io/Guowei-Zou/">邹国伟</a>)
 
 📧 [zougw2025@gmail.com](mailto:zougw2025@gmail.com)<br>
 📧 [zougw@mail2.sysu.edu.cn](mailto:zougw@mail2.sysu.edu.cn)
@@ -28,7 +28,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [September 26, 2026] MA-FPPO: Multi-Agent Flow-Pretrained Policy Optimization.<br>
-      <strong>Guowei Zou</strong>, H. Chen, H. Wang, B. Zhang, N. Yan, H. Wu.<br>
+      <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Chen, H. Wang, B. Zhang, N. Yan, H. Wu.<br>
       [<a href="https://ma-fppo.github.io/">Project Page</a>] [<a href="https://arxiv.org/abs/2609.32594">arXiv</a>] [<a href="https://github.com/ma-fppo/MA-FPPO">Code</a>]
     </td>
   </tr>
@@ -38,7 +38,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [July 28, 2026] MA-WAM: Multi-Agent World-Action Model for Test-Time Planning <strong>(Under review)</strong>.<br>
-       <strong>Guowei Zou</strong>, H. Wang, G. Wang, B. Zhang, Z. Chen, G. Wang, H. Wu.<br>
+       <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, G. Wang, B. Zhang, Z. Chen, G. Wang, H. Wu.<br>
       [<a href="https://ma-wam.github.io/">Project Page</a>] [<a href="https://arxiv.org/abs/2609.31281">arXiv</a>] [<a href="https://github.com/ma-wam/MA-WAM">Code</a> (coming soon)]
     </td>
   </tr>
@@ -48,7 +48,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [July 28, 2026] G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies <strong>(Under review)</strong>.<br>
-       <strong>Guowei Zou</strong>, H. Wang, G. Wang, Z. Chen, B. Zhang, G. Wang, H. Wu.<br>
+       <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, G. Wang, Z. Chen, B. Zhang, G. Wang, H. Wu.<br>
       [<a href="https://g2maf.github.io/">Project Page</a>] [<a href="https://arxiv.org/abs/2609.31286">arXiv</a>] [<a href="https://github.com/g2maf/G2MAF">Code</a> (coming soon)]
     </td>
   </tr>
@@ -58,7 +58,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [June 7, 2026] Co-π-tree: Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration <strong>(The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026))</strong>.<br>
-       B. Zhang, Y. Liang, <strong>Guowei Zou</strong>, H. Wang, H. Wu.<br>
+       B. Zhang, Y. Liang, <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, H. Wu.<br>
       [<a href="https://beiwenzhang.github.io/Co-pi-tree/">Project Page</a>] [<a href="https://arxiv.org/pdf/2606.08596">Paper</a>] [<a href="https://beiwenzhang.github.io/Co-pi-tree/video.html">Videos</a>]
     </td>
   </tr>
@@ -68,7 +68,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [May 2, 2026] CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making.<br>
-      <strong>Guowei Zou</strong>, H. Wang, B. Zhang, B. Zhang, H. Wu.<br>
+      <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, B. Zhang, B. Zhang, H. Wu.<br>
       [<a href="https://guowei-zou.github.io/coflow/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/coflow-release">Code</a>] [<a href="https://arxiv.org/abs/2605.01457">arXiv</a>]
     </td>
   </tr>
@@ -78,7 +78,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [January 28, 2026] One Step Is Enough: Dispersive MeanFlow Policy Optimization (DMPO) <strong>(The 34th ACM International Conference on Multimedia (ACM MM 2026))</strong>.<br>
-       <strong>Guowei Zou</strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
+       <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
       [<a href="https://guowei-zou.github.io/dmpo-page/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/dmpo-release">Code</a>] [<a href="https://arxiv.org/abs/2601.20701">arXiv</a>]
     </td>
   </tr>
@@ -88,7 +88,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [October 29, 2025] PACT: Phenotype-Aware Contrastive Team Representation for Multi-Phenotype Grouped Ad Hoc Teamwork.<br>
-      B. Zhang, Y. Liang, <strong>Guowei Zou</strong>, H. Wang, C. Liu, H. Wu.<br>
+      B. Zhang, Y. Liang, <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, C. Liu, H. Wu.<br>
       [<a href="https://arxiv.org/abs/2510.25340v2">arXiv</a>]
     </td>
   </tr>
@@ -98,7 +98,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [October 9, 2025] DM1: MeanFlow with Dispersive Regularization for 1-Step Robotic Manipulation.<br>
-      <strong>Guowei Zou</strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
+      <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
       [<a href="https://guowei-zou.github.io/dm1/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/dm1-release">Code</a>] [<a href="https://arxiv.org/abs/2510.07865">arXiv</a>]
     </td>
   </tr>
@@ -108,7 +108,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     </td>
     <td valign="top">
       [August 4, 2025] D2PPO: Diffusion Policy Policy Optimization with Dispersive Loss <strong>(AAAI Conference on Artificial Intelligence (AAAI) 2026)</strong>.<br>
-       <strong>Guowei Zou</strong>, W. Li, H. Wu, Y. Qian, Y. Wang, H. Wang.<br>
+       <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, W. Li, H. Wu, Y. Qian, Y. Wang, H. Wang.<br>
       [<a href="https://guowei-zou.github.io/d2ppo/">Project Page</a>] [<a href="https://github.com/Guowei-Zou/d2ppo-release">Code</a>] [<a href="https://arxiv.org/abs/2508.02644">arXiv</a>]
     </td>
   </tr>
