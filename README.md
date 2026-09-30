@@ -74,7 +74,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
   </tr>
   <tr>
     <td width="280" valign="middle" align="center">
-      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/20260128_DMPO_oral.png" alt="DMPO" width="260">
+      <img src="https://guowei-zou.github.io/Guowei-Zou/assets/20260128_DMPO_oral.png" alt="OGPO" width="260">
     </td>
     <td valign="top">
       [January 28, 2026] OGPO: One-Step Generative Policy Optimization for Real-Time Robot Control <strong>(The 34th ACM International Conference on Multimedia (ACM MM 2026))</strong>.<br>
