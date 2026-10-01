@@ -79,7 +79,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     <td valign="top">
       [January 28, 2026] OGPO: One-Step Generative Policy Optimization for Real-Time Robot Control <strong>(The 34th ACM International Conference on Multimedia (ACM MM 2026))</strong>.<br>
        <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, H. Wang, H. Wu, Y. Qian, Y. Wang, W. Li.<br>
-      [<a href="https://ogpo-project.github.io/">Project Page</a>] [<a href="https://github.com/ogpo-project/OGPO">Code</a>] [<a href="https://arxiv.org/abs/2601.20701">arXiv</a>]
+      [<a href="https://ogpo-project.github.io/">Project Page</a>] [<a href="https://github.com/ogpo-project/OGPO">Code</a>] [<a href="https://arxiv.org/abs/2601.20701v2">arXiv</a>]
     </td>
   </tr>
   <tr>
