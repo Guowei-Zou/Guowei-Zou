@@ -450,11 +450,28 @@ if (publicationThumbnails.length > 0) {
     const expandedImage = document.createElement('img');
     expandedImage.alt = '';
     lightbox.appendChild(expandedImage);
+
+    const expandedVideo = document.createElement('video');
+    expandedVideo.muted = true;
+    expandedVideo.loop = true;
+    expandedVideo.playsInline = true;
+    expandedVideo.style.display = 'none';
+    lightbox.appendChild(expandedVideo);
     document.body.appendChild(lightbox);
 
     const openPublicationLightbox = (thumbnail) => {
-        expandedImage.src = thumbnail.currentSrc || thumbnail.src;
-        expandedImage.alt = thumbnail.alt;
+        if (thumbnail.tagName === 'VIDEO') {
+            expandedImage.style.display = 'none';
+            expandedVideo.style.display = 'block';
+            expandedVideo.src = thumbnail.dataset.fullSrc || thumbnail.currentSrc || thumbnail.src;
+            expandedVideo.setAttribute('aria-label', thumbnail.getAttribute('aria-label') || '');
+            expandedVideo.play().catch(() => {});
+        } else {
+            expandedVideo.style.display = 'none';
+            expandedImage.style.display = 'block';
+            expandedImage.src = thumbnail.currentSrc || thumbnail.src;
+            expandedImage.alt = thumbnail.alt;
+        }
         lightbox.classList.add('is-open');
         document.body.classList.add('publication-lightbox-open');
     };
@@ -463,12 +480,15 @@ if (publicationThumbnails.length > 0) {
         lightbox.classList.remove('is-open');
         document.body.classList.remove('publication-lightbox-open');
         expandedImage.removeAttribute('src');
+        expandedVideo.pause();
+        expandedVideo.removeAttribute('src');
+        expandedVideo.load();
     };
 
     publicationThumbnails.forEach((thumbnail) => {
         thumbnail.setAttribute('tabindex', '0');
         thumbnail.setAttribute('role', 'button');
-        thumbnail.setAttribute('aria-label', `Enlarge ${thumbnail.alt || 'publication image'}`);
+        thumbnail.setAttribute('aria-label', `Enlarge ${thumbnail.alt || thumbnail.getAttribute('title') || 'publication image'}`);
 
         thumbnail.addEventListener('click', () => openPublicationLightbox(thumbnail));
         thumbnail.addEventListener('keydown', (event) => {

@@ -368,6 +368,7 @@ p strong[style] {
 }
 
 .publication-thumb {
+    display: block;
     width: 200px;
     height: auto;
     object-fit: cover;
@@ -395,7 +396,8 @@ p strong[style] {
     visibility: visible;
 }
 
-.publication-lightbox img {
+.publication-lightbox img,
+.publication-lightbox video {
     display: block;
     max-width: calc(100vw - 3rem);
     max-height: calc(100vh - 3rem);
