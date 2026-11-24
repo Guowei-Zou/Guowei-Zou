@@ -24,6 +24,16 @@ My research lies at the intersection of **artificial intelligence and robotics**
 <table>
   <tr>
     <td width="280" valign="middle" align="center">
+      <img src="assets/teamflowrl_motivation.png" alt="TeamFlowRL overview" width="260">
+    </td>
+    <td valign="top">
+      [November 24, 2026] TeamFlowRL: Online Policy Optimization of Decentralized Flow Policies for Multi-Agent Coordination.<br>
+      <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, B. Zhang, H. Wang, H. Hong, Z. Chen, H. Wu.<br>
+      [<a href="https://teamflowrl.github.io/">Project Page</a>] [<a href="https://github.com/teamflowrl/TeamFlowRL">Code</a>] [<a href="https://huggingface.co/teamflowrl/TeamFlowRL">Models</a>]
+    </td>
+  </tr>
+  <tr>
+    <td width="280" valign="middle" align="center">
       <img src="https://ma-fppo.github.io/assets/motivation_three_stage.webp" alt="MA-FPPO motivation" width="260">
     </td>
     <td valign="top">
