@@ -12,7 +12,7 @@
 </p>
 
 ## About Me
-I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering. Currently, I am a **visiting student** at the **School of Computing, National University of Singapore**. Previously, I worked as a Hardware Engineer at **Huawei Technologies Co., Ltd.** Before that, I received my Master's degree from **Sun Yat-Sen University** (State Key Laboratory of Optoelectronic Materials and Technologies).
+I am a **third-year PhD student** at **Sun Yat-Sen University**, School of Computer Science and Engineering. Currently, I am a **visiting PhD student** at the **School of Computing, National University of Singapore**. Previously, I worked as a Hardware Engineer at **Huawei Technologies Co., Ltd.** Before that, I received my Master's degree from **Sun Yat-Sen University** (State Key Laboratory of Optoelectronic Materials and Technologies).
 
 ## Research Interests
 My research lies at the intersection of **artificial intelligence and robotics**, where I explore how generative modeling and reinforcement learning can be unified to create **embodied agents** capable of real-time decision-making in the physical world. Currently, I am particularly focused on **World Models** and RL-based policy optimization within world models.
@@ -125,7 +125,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
 </table>
 
 ## Education & Experience
-- <img src="https://www.comp.nus.edu.sg/wp-content/uploads/2023/09/cropped-favicon-192x192.png" width="22" height="22" align="center" alt="NUS"> **Visiting Student** | National University of Singapore | 2026 - Present
+- <img src="https://www.comp.nus.edu.sg/wp-content/uploads/2023/09/cropped-favicon-192x192.png" width="22" height="22" align="center" alt="NUS"> **Visiting PhD Student** | National University of Singapore | 2026 - Present
 - <img src="https://www.sysu.edu.cn/sysuen/images/favicon.png" width="22" height="22" align="center" alt="SYSU"> **PhD in Computer Science and Technology** | Sun Yat-Sen University | 2024 - Present
 - <img src="https://www.huawei.com/-/media/htemplate-home/1.0.1.20251205144752/components/assets/img/favicon-logo.svg" width="22" height="22" align="center" alt="Huawei"> **Hardware Engineer** | Huawei Technologies Co., Ltd., Consumer BG - Display & Touch Division | 2023 - 2024
 - <img src="https://www.sysu.edu.cn/sysuen/images/favicon.png" width="22" height="22" align="center" alt="SYSU"> **Master in Electronic Science and Technology** | Sun Yat-Sen University | 2020 - 2023
