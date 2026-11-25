@@ -29,7 +29,7 @@ My research lies at the intersection of **artificial intelligence and robotics**
     <td valign="top">
       [November 24, 2026] TeamFlowRL: Online Policy Optimization of Decentralized Flow Policies for Multi-Agent Coordination.<br>
       <strong><a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a></strong>, B. Zhang, H. Wang, H. Hong, Z. Chen, H. Wu.<br>
-      [<a href="https://teamflowrl.github.io/">Project Page</a>] [<a href="https://github.com/teamflowrl/TeamFlowRL">Code</a>] [<a href="https://huggingface.co/teamflowrl/TeamFlowRL">Models</a>]
+      [<a href="https://teamflowrl.github.io/">Project Page</a>] [<a href="https://arxiv.org/abs/2611.32645">arXiv</a>] [<a href="https://github.com/teamflowrl/TeamFlowRL">Code</a>] [<a href="https://huggingface.co/teamflowrl/TeamFlowRL">Models</a>]
     </td>
   </tr>
   <tr>
